@@ -1,4 +1,4 @@
-package firstjava;
+package first;
 
 public class FirstJava {
     public static void main(String[] arr) {
