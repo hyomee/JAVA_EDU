@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8197556e-ec47-43d7-bdf1-361488dee0fc" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstJava/src/com/javavariable/DecimalConversion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstJava/src/com/javavariable/DeclaredVariable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstJava/src/com/javavariable/InitVariable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstJava/src/com/javavariable/JvmVariableCycle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstJava/src/com/javavariable/PrimitiveChar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstJava/src/com/javavariable/PrimitiveFloat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstJava/src/com/javavariable/PrimitiveTypeBooleanNumeric.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstJava/src/com/javavariable/TypeCasting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstJava/src/com/javavariable/VariableInit.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +12,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="24Qb6EcrqxMiuvoiHNkwhOZPoAI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,5 +39,16 @@
       <updated>1643565584874</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
