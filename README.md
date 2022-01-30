@@ -8,4 +8,4 @@
 2. 변수와 자료형 
    - 자바 변수에 대한 개념 이해 
    - 기본 자료형 과 참조 자료형 
-   - https://github.com/hyomee/JAVA_EDU/blob/main/Variable/JAVA_변수자료형.pdf 
+   - 교육 내용 : [변수와 자료형](https://github.com/hyomee/JAVA_EDU/blob/main/Variable/JAVA_변수자료형.pdf)
