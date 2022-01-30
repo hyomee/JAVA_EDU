@@ -3,7 +3,7 @@
 
 1. [프로그램 기초](https://github.com/hyomee/JAVA_EDU/tree/main/FirstJava)
    - 자바 학습에 앞서 프로그램 무엇인가, 자바(JDK, JRE, JVM), 환경 설정 
-   - https://github.com/hyomee/JAVA_EDU/blob/main/FirstJava/JAVA_기초.pdf 
+   - 교육 내용 : [JAVA_기초](https://github.com/hyomee/JAVA_EDU/blob/main/FirstJava/JAVA_기초.pdf)
 
 2. 변수와 자료형 
    - 자바 변수에 대한 개념 이해 
