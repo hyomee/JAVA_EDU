@@ -1,4 +1,4 @@
-package com.hyomee.input;
+package com.javabasic.input;
 
 import java.util.Scanner;
 

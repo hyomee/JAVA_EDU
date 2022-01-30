@@ -1,4 +1,4 @@
-package com.hyomee.print;
+package com.javabasic.print;
 
 public class SystemPrintf {
     public static void main(String[] args) {

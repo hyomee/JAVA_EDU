@@ -1,4 +1,4 @@
-package com.hyomee.print;
+package com.javabasic.print;
 
 /**
  * 모든 출력을 한 줄로 출력
