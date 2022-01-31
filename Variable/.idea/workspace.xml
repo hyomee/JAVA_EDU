@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8197556e-ec47-43d7-bdf1-361488dee0fc" name="변경" comment=".">
-      <change afterPath="$PROJECT_DIR$/src/com/javavariable/string/StringOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA_변수자료형.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA_변수자료형.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="8197556e-ec47-43d7-bdf1-361488dee0fc" name="변경" comment="변수, 기본자료형, 참조자료형">
+      <change afterPath="$PROJECT_DIR$/../Operator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator/.idea/modules.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643567018175</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="변수, 기본자료형, 참조자료형">
+      <created>1643647222674</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643647222674</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +168,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="변수, 기본자료형, 참조자료형" />
+    <option name="LAST_COMMIT_MESSAGE" value="변수, 기본자료형, 참조자료형" />
   </component>
 </project>
