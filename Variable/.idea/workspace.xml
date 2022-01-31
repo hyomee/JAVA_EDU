@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8197556e-ec47-43d7-bdf1-361488dee0fc" name="변경" comment="변수, 기본자료형, 참조자료형">
-      <change afterPath="$PROJECT_DIR$/../Operator/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Operator/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Operator/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Operator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Operator/src/com/hyomee/operator/ArithmeticOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
