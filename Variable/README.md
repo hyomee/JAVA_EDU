@@ -2,7 +2,7 @@
 #### 변수, 기본자료형, 참조자료형(배열, 문자열)
 * [변수](https://github.com/hyomee/JAVA_EDU/blob/main/Variable/src/com/javavariable/DeclaredVariable.java)
 * 기본 자료형 ( Primitive Type )
-**
+  * 
 * 참조 자료형 ( Reference Type )
 * 변수 구분
 * JVM 상태
