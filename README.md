@@ -30,5 +30,5 @@
 14. Generic
 15. Lambda
 16. Stream
-17. 자바 입출력
+17. JAVA I/0
 
