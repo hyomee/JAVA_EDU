@@ -20,14 +20,15 @@
 
 5. Class & Object
 6. Collections
-7. Class 
-8. extend/implements
-9. absctract class/interface
-10. inner Class/Interface
-11. Thread
-12. Exception
-13. Generic
-14. Lambda
-15. Stream
-16. 자바 입출력
+7. Class ( OOP )
+8. Modifier
+9. extend/implements
+10. absctract class/interface
+11. inner Class/Interface
+12. Thread
+13. Exception
+14. Generic
+15. Lambda
+16. Stream
+17. 자바 입출력
 
