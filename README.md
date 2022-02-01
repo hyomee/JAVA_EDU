@@ -20,11 +20,11 @@
 
 5. Class & Object
 6. Collections
-7. Class ( OOP )
+7. Class  
 8. Modifier
-9. extend/implements
-10. absctract class/interface
-11. inner Class/Interface
+9. Extend/Implements
+10. Absctract Class/Interface
+11. Inner Class/Interface
 12. Thread
 13. Exception
 14. Generic
