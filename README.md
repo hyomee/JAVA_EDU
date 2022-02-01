@@ -9,3 +9,7 @@
    - 자바 변수에 대한 개념 이해 
    - 기본 자료형 과 참조 자료형 
    - 학습 내용 : [변수와 자료형](https://github.com/hyomee/JAVA_EDU/blob/main/Variable/JAVA_변수자료형.pdf)
+
+3. [연산자](https://github.com/hyomee/JAVA_EDU/tree/main/Operator)
+   - 자바 연산자 및 연산자 우선 순위 이해
+   - 학습 내용 : [연산자](https://github.com/hyomee/JAVA_EDU/blob/main/Operator/JAVA_연산자.pdf)
