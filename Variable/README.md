@@ -15,7 +15,7 @@
   * 2차원배열
   * [문자열](https://github.com/hyomee/JAVA_EDU/blob/main/Variable/src/com/javavariable/string/StringOperation.java), 
     [문자열공유](https://github.com/hyomee/JAVA_EDU/blob/main/Variable/src/com/javavariable/string/StringSharing.java), 
-    [문자영연산](https://github.com/hyomee/JAVA_EDU/blob/main/Variable/src/com/javavariable/string/StringCopy.java)
+    [문자열복사](https://github.com/hyomee/JAVA_EDU/blob/main/Variable/src/com/javavariable/string/StringCopy.java)
 * [변수 구분](https://github.com/hyomee/JAVA_EDU/blob/main/Variable/src/com/javavariable/InitVariable.java)
 * [JVM 상태](https://github.com/hyomee/JAVA_EDU/blob/main/Variable/src/com/javavariable/JvmVariableCycle.java)
 * [형 변환](https://github.com/hyomee/JAVA_EDU/blob/main/Variable/src/com/javavariable/TypeCasting.java)
