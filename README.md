@@ -18,7 +18,7 @@
    - if, switch. for, while, do..while 이해
    - 학습 내용 : [제어문](https://github.com/hyomee/JAVA_EDU/blob/main/Control/JAVA_제어.pdf)
 
-5. Class & Object
+5. [Class & Object](https://github.com/hyomee/JAVA_EDU/tree/main/ClassObject)
 6. Collections
 7. Class  
 8. Modifier
