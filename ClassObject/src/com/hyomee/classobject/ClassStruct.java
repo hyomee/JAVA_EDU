@@ -18,6 +18,10 @@ public class ClassStruct {
       return num;
    }
 
+   public int getNum01() {
+      return num01;
+   }
+
    public void setNum(int num) {
       System.out.println("2 ... 인스턴스 변수 num 설정");
       this.num = num;
