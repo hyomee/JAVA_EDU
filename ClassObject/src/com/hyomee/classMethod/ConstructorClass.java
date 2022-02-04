@@ -9,6 +9,10 @@ public class ConstructorClass {
   // public ConstructorClass() {} : 다른 package에서 생성시
   ConstructorClass() {};
 
+  ConstructorClass(int num01) {
+    this.num01 = num01;
+  }
+
   ConstructorClass(int num01, int num02) {
     this.num01 = num01;
     this.num02 = num02;
