@@ -1,4 +1,4 @@
-package com.hyomee.classobject;
+package com.hyomee.classMethod;
 
 public class ClassMethod {
   public ClassMethod() {

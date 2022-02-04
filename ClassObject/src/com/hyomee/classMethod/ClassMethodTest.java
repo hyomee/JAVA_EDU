@@ -1,7 +1,5 @@
 package com.hyomee.classMethod;
 
-import com.hyomee.classobject.ClassMethod;
-
 public class ClassMethodTest {
 
   public void DefaultMethodTest() {

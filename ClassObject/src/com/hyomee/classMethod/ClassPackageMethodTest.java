@@ -1,4 +1,7 @@
-package com.hyomee.classobject;
+package com.hyomee.classMethod;
+
+import com.hyomee.classMethod.ClassMethod;
+
 public class ClassPackageMethodTest {
   public void ClassPackageMethodTest() {
     ClassMethod classMethod = new ClassMethod();
