@@ -8,7 +8,7 @@
 * 객체지향프로그램(OOPL)
 * [Class]()
 * [Field](https://github.com/hyomee/JAVA_EDU/tree/main/ClassObject/src/com/hyomee/classobject)
-* [Method](https://github.com/hyomee/JAVA_EDU/blob/main/ClassObject/src/com/hyomee/classobject/ClassMethod.java)
+* [Method](https://github.com/hyomee/JAVA_EDU/tree/main/ClassObject/src/com/hyomee/classMethod)
 * [Constructor]()
 * 자바 제어자
   * [static](https://github.com/hyomee/JAVA_EDU/tree/main/ClassObject/src/com/hyomee/statictest)
