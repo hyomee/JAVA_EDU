@@ -24,10 +24,12 @@ public class GenericMethod {
     return (V) (t1 + " : " + v1);
   }
 
+
   <T, V> boolean checkEquals(V v1, V v2){
     return v1.equals(v2);
   }
-
+  // Generic Method 내부에서는 매개변수로 한 참조 변수의 메서드로
+  // Object Class의 Method만 가능
   <T extends String, I extends Integer, V> String extednsMethod(T t, I i, V v){
     char ch = t.charAt(i);
     return  v.toString() + ch ;
