@@ -19,17 +19,21 @@
    - 학습 내용 : [제어문](https://github.com/hyomee/JAVA_EDU/blob/main/Control/JAVA_제어.pdf)
 
 5. [Class & Object](https://github.com/hyomee/JAVA_EDU/tree/main/ClassObject)
-6. Collections
-7. Class  
-8. Modifier
-9. Extend/Implements
-10. Absctract Class/Interface
-11. Inner Class/Interface
-12. Thread
-13. Exception
-14. Generic
-15. Lambda
-16. Stream
-17. Annotation
-18. JAVA I/0
+   - Class와 Object의 개념, OOP 이해 
+   - 학습 내용 : [Class&Object](https://github.com/hyomee/JAVA_EDU/blob/main/ClassObject/JAVA_Class.pdf)
+   
+6. Generic Method
+7. Collections
+8. Class  
+9. Modifier
+10. Extend/Implements
+11. Absctract Class/Interface
+12. Inner Class/Interface
+13. Thread
+14. Exception
+15. Generic Extend
+16. Lambda
+17. Stream
+18. Annotation
+19. JAVA I/0
 
