@@ -8,13 +8,13 @@ public class GenericMethod {
     return t;
   }
 
+  // Generic Method 내부에서 매개변수의 산술 연산 되지 않음 ->  Object
   <T> String methodRnString(T t1, T t2){
     // t1 +  t2 : Operator '+' cannot be applied to 'T', 'T'
     return t1 + "" + t2;
   }
 
   <K,V> void methodPrint(K t1, V v1){
-    // t1 +  t2 : Operator '+' cannot be applied to 'T', 'T'
     System.out.println(t1 + " : " + v1 );
   }
 
