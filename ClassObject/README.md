@@ -2,7 +2,7 @@
 #### 객체지향프로그램(OOPL)을 이해하고 객체(Class)의 문법적 구조를 이해 한다.
 * 학습내용 : [Class&Obkct](https://github.com/hyomee/JAVA_EDU/blob/main/ClassObject/JAVA_Class.pdf)
 
-![image](https://user-images.githubusercontent.com/11780795/152401225-532b42d6-9eb9-48e6-af0b-597bc6b3589f.png)
+![image](https://user-images.githubusercontent.com/11780795/152641902-c9cff745-92f5-4540-a96c-d05fb84eab6c.png)
 ![image](https://user-images.githubusercontent.com/11780795/152404050-e699ce10-5cbb-498f-98d9-1f6ea13f677f.png)
 
 * 객체지향프로그램(OOPL)
