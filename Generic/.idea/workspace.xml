@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="832c4109-579f-4fe1-9853-ae3d0298e41d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/hyomee/generic/GenericMain.java" afterDir="false" />
+    <list default="true" id="832c4109-579f-4fe1-9853-ae3d0298e41d" name="Changes" comment="Genetic">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hyomee/generic/GenericMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hyomee/generic/GenericMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +67,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1644065477768</updated>
-      <workItem from="1644065479101" duration="457000" />
+      <workItem from="1644065479101" duration="615000" />
     </task>
+    <task id="LOCAL-00001" summary="Genetic">
+      <created>1644066021080</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644066021080</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +92,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Genetic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Genetic" />
   </component>
 </project>
