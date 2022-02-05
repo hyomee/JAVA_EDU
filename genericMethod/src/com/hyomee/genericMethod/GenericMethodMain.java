@@ -1,6 +1,7 @@
 package com.hyomee.genericMethod;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class GenericMethodMain {
@@ -22,6 +23,23 @@ public class GenericMethodMain {
     }
     */
 
+    GenericMethod genericMethod = new GenericMethod();
+    int num =   genericMethod.method(10);
+    System.out.println(num);
+
+    String str = genericMethod.methodRnString("안녕" , 10);
+    System.out.println(str);
+
+    genericMethod.methodPrint("name" , "홍길동");
+
+    String str01 =  genericMethod.methodPrintRnString("name" , "홍길동");
+    System.out.println(str01);
+
+    System.out.println(genericMethod.checkEquals(10 , 2.1));
+    System.out.println(genericMethod.checkEquals("사과" , "배"));
+    System.out.println(genericMethod.checkEquals("사과" , "사과"));
+
+    System.out.println(genericMethod.extednsMethod("사과" , 0, "첫문자 : "));
   }
 }
 
