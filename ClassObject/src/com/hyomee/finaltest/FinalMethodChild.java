@@ -1,6 +1,9 @@
 package com.hyomee.finaltest;
 
 public class FinalMethodChild extends FinalMethodParent {
+  public FinalMethodChild() {
+
+  }
   public void instanceMethod() {
     super.instanceMethod();
     super.finalInstanceMethod();
