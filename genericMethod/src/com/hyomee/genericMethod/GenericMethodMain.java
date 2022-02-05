@@ -12,7 +12,7 @@ public class GenericMethodMain {
     list.add("홍사과");
 
     for (int i = 0; i < list.size(); i++) {
-      String str = list.get(0);
+      String str = (String) list.get(0);
       System.out.println(str);
     }
   }
