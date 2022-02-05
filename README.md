@@ -22,7 +22,10 @@
    - Class와 Object의 개념, OOP 이해 
    - 학습 내용 : [Class&Object](https://github.com/hyomee/JAVA_EDU/blob/main/ClassObject/JAVA_Class.pdf)
    
-6. Generic Method
+6. [Generic Method](https://github.com/hyomee/JAVA_EDU/tree/main/genericMethod)
+   - Generic의 개념, Generic Method 이해 
+   - 학습 내용 : [Generic Method](https://github.com/hyomee/JAVA_EDU/blob/main/genericMethod/JAVA_Generic.pdf)
+   
 7. Collections
 8. Class  
 9. Modifier
