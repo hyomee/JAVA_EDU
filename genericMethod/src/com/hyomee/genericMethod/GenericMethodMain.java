@@ -5,6 +5,7 @@ import java.util.List;
 
 public class GenericMethodMain {
   public static void main(String... args) {
+
     List<String> list = new ArrayList<>();
     list.add("홍길동");
     list.add("홍당무");
