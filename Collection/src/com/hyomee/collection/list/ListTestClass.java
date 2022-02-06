@@ -4,6 +4,7 @@ import java.util.*;
 
 public class ListTestClass {
   public void listTestMethod() {
+
     List<Integer> asArray = new ArrayList<>();
 
     // 초기 저장 공간 할당 : 실제 데이터 갯수의 size은 아님
@@ -24,7 +25,6 @@ public class ListTestClass {
 
     // 정적 메서드 활용 -> new ArrayList<> Wrapping 되어 있음
     List<Integer> asArrays = Arrays.asList(10,20,20,40);
-
 
   }
 }
