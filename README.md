@@ -26,7 +26,10 @@
    - Generic의 개념, Generic Method 이해 
    - 학습 내용 : [Generic Method](https://github.com/hyomee/JAVA_EDU/blob/main/genericMethod/JAVA_Generic.pdf)
    
-7. Collections
+7. [Collections](https://github.com/hyomee/JAVA_EDU/tree/main/Collection)
+   - Collection 객체 이해 , API 사용법 학습 
+   - 학습 내용 : [Collections](https://github.com/hyomee/JAVA_EDU/blob/main/Collection/JAVA_Collection.pdf)
+
 8. Class  
 9. Modifier
 10. Extend/Implements
