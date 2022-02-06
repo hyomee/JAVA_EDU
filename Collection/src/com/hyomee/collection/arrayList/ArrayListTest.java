@@ -39,6 +39,7 @@ public class ArrayListTest {
     strCollection01.add("BMW자동차");
     System.out.println("strCollection01 " + strCollection01.toString());
 
+    // 컬렉션을 특정 요소에 추가
     strList.addAll(3, strCollection01);
     System.out.println("strList " + strList.toString());
 
