@@ -1,6 +1,8 @@
 ## ArrayList<E> 
 #### 배열 처럼 인텍스로 관리, 저장 용량 동적 관리
 
+![image](https://user-images.githubusercontent.com/11780795/152692689-0189f79f-5829-496c-8f15-463472f3ecce.png)
+
 * 인스턴스 변수로 ArrayList 선언 : ArrayListTest.ArrayListTest()
 * 요소 추가 ( add, addAll ) : ArrayListTest.addtMethod()
 * 요소 삭제 ( remove, removeAll, clear) : ArrayListTest.removeMethod()
