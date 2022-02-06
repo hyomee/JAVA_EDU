@@ -4,5 +4,5 @@
 ![image](https://user-images.githubusercontent.com/11780795/152683625-bf4d6ea8-00e0-4bf0-bab8-ed9c317feadf.png)
 
 * [Collection 예제](https://github.com/hyomee/JAVA_EDU/tree/main/Collection/src/com/hyomee/collection)
-* List
+* [List](https://github.com/hyomee/JAVA_EDU/tree/main/Collection/src/com/hyomee/collection/list)
   * ArrayList
