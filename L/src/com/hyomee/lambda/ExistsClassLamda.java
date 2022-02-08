@@ -6,6 +6,8 @@ class Customer {
   private int custNo;
   private String custName;
 
+  static int ages = 30;
+
   Customer(int custNo, String custName) {
     this.custNo = custNo;
     this.custName = custName;
@@ -25,6 +27,12 @@ class Customer {
   void changeName(String custName) {
     this.custName = custName;
   }
+
+  static int staticMethod(int a) {
+    return a;
+  }
+
+
 }
 
 interface IfExistsClass {
@@ -37,6 +45,14 @@ interface IfExistsClassMethod {
 
 interface IfExistsClassMethod01 {
   void changeName(String name);
+}
+
+interface IfExistsClassStaticMethod {
+  int runStaticMethod(int ages);
+}
+
+interface IfExistsClassStaticMember {
+  void getStaticMember();
 }
 
 public class ExistsClassLamda {
@@ -70,6 +86,10 @@ public class ExistsClassLamda {
     System.out.println("iecm01 :: " + customer01.getCustNo());
     System.out.println("iecm01 :: " + customer01.getCustName());
 
+    // static 메서드
+    IfExistsClassStaticMethod iecsm = Customer::staticMethod;
+    System.out.println("iecm01 :: " + iecsm.runStaticMethod(20));
+    ;
   }
 
 
