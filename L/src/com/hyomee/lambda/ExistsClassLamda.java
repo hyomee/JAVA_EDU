@@ -105,6 +105,8 @@ public class ExistsClassLamda {
     iecrc.changeName(customer01, "탐라");
     System.out.println("iecm01 :: " + customer01.getCustNo());
     System.out.println("iecm01 :: " + customer01.getCustName());
+
+
   }
 
 
