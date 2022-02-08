@@ -47,6 +47,7 @@ public class JavautilFunction {
     System.out.println(fnIsUp.or(fnisDown).test(10));
 
     Predicate<String> isEquals = Predicate.isEqual("선화");
-    isEquals.test("선화");
+    System.out.println(isEquals.test("선화"));
+
   }
 }
