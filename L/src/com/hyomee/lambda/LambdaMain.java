@@ -22,5 +22,8 @@ public class LambdaMain {
 
     ExistsClassLamda existsClassLamda = new ExistsClassLamda();
     existsClassLamda.printCust();
+
+    JavautilFunction javautilFunction = new JavautilFunction();
+    javautilFunction.javautil();
   }
 }
