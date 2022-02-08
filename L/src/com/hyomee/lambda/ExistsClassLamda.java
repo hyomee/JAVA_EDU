@@ -22,8 +22,6 @@ class Customer {
   void changeName(String custName) {
     this.custName = custName;
   }
-
-
 }
 
 interface IfExistsClass {
