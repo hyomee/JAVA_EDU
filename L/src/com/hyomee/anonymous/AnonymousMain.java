@@ -26,7 +26,8 @@ public class AnonymousMain {
     String str = anonymousChild.action.action("홍길동");
     System.out.println(str);
 
-    anonymousChild.actionMethod("인스턴스메서드");
+    str = anonymousChild.actionMethod("인스턴스메서드");
+    System.out.println(str);
   }
 
 }

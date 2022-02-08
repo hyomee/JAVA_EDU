@@ -16,5 +16,8 @@ public class LambdaMain {
 
     AnonymousInterface ac03 = (String str) -> { return  str; };
     System.out.println("람다 : " + ac02.action("람다"));
+
+    LambdaFunctional lambdaFunctional = new LambdaFunctional();
+    lambdaFunctional.LamdaTest();
   }
 }
