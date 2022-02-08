@@ -44,10 +44,10 @@ public class ExistsClassLamda {
     IfExistsClass iec = (name) -> {
       // Customer customer = new Customer(20, "춘향") ;
 
-      // BiFunction<Integer, String, Customer> customerFn = Customer ::new;
+      // BiFunction<Integer, String, Customer> customerFn = (custNo, custNm) -> new Customer(custNo, custNm);
       // Customer customer = customerFn.apply(20, "춘향");
 
-      BiFunction<Integer, String, Customer> customerFn = (custNo, custNm) -> new Customer(custNo, custNm);
+      BiFunction<Integer, String, Customer> customerFn = Customer ::new;
       Customer customer = customerFn.apply(20, "춘향");
 
       customer.printCust();
@@ -63,7 +63,8 @@ public class ExistsClassLamda {
 
     Customer customer01 = new Customer(10, "온달");
     IfExistsClassMethod iecm = customer01::getCustName;
-    System.out.println("iecm :: " + customer01.getCustName());
+    System.out.println("iecm :: " + iecm.getCust());
+
     IfExistsClassMethod01 iecm01 = customer01::changeName;
     iecm01.changeName("평강");
     System.out.println("iecm01 :: " + customer01.getCustNo());
