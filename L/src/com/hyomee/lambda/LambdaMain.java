@@ -19,5 +19,8 @@ public class LambdaMain {
 
     LambdaFunctional lambdaFunctional = new LambdaFunctional();
     lambdaFunctional.LamdaTest();
+
+    ExistsClassLamda existsClassLamda = new ExistsClassLamda();
+    existsClassLamda.printCust();
   }
 }
