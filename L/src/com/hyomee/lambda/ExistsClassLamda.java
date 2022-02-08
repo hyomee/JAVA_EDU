@@ -35,6 +35,10 @@ class Customer {
 
 }
 
+interface IfExistsClassCreate {
+  Customer create(int custNo, String CustNm);
+}
+
 interface IfExistsClass {
   Customer getCust(String name);
 }
@@ -54,28 +58,33 @@ interface IfExistsClassStaticMethod {
 
 
 public class ExistsClassLamda {
+  private static Customer getCust(String name) {
+    // Customer customer = new Customer(20, "춘향") ;
+
+    // BiFunction<Integer, String, Customer> customerFn = (custNo, custNm) -> new Customer(custNo, custNm);
+    // Customer customer = customerFn.apply(20, "춘향");
+
+    BiFunction<Integer, String, Customer> customerFn = Customer::new;
+    Customer customer = customerFn.apply(20, "춘향");
+
+
+    customer.printCust();
+    customer.changeName(name);
+    customer.printCust();
+    return customer;
+  }
+
   public void printCust() {
-    IfExistsClass iec = (name) -> {
-      // Customer customer = new Customer(20, "춘향") ;
-
-      // BiFunction<Integer, String, Customer> customerFn = (custNo, custNm) -> new Customer(custNo, custNm);
-      // Customer customer = customerFn.apply(20, "춘향");
-
-      BiFunction<Integer, String, Customer> customerFn = Customer ::new;
-      Customer customer = customerFn.apply(20, "춘향");
-
-      customer.printCust();
-      customer.changeName(name);
-      customer.printCust();
-      return customer;
-    };
+    IfExistsClass iec = ExistsClassLamda::getCust;
 
     Customer customer = iec.getCust("이도령");
     System.out.println(customer.getCustNo());
     System.out.println(customer.getCustName());
 
+    IfExistsClassCreate iecmc = Customer ::new;;
+    Customer customer01 = iecmc.create(10, "온달");
+    //Customer customer01 = new Customer(10, "온달");
 
-    Customer customer01 = new Customer(10, "온달");
     IfExistsClassMethod iecm = customer01::getCustName;
     System.out.println("iecm :: " + iecm.getCust());
 
