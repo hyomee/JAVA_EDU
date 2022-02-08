@@ -51,9 +51,7 @@ interface IfExistsClassStaticMethod {
   int runStaticMethod(int ages);
 }
 
-interface IfExistsClassStaticMember {
-  void getStaticMember();
-}
+
 
 public class ExistsClassLamda {
   public void printCust() {
@@ -88,7 +86,7 @@ public class ExistsClassLamda {
 
     // static 메서드
     IfExistsClassStaticMethod iecsm = Customer::staticMethod;
-    System.out.println("iecm01 :: " + iecsm.runStaticMethod(20));
+    System.out.println("iecsm :: " + iecsm.runStaticMethod(20));
     ;
   }
 
