@@ -42,7 +42,7 @@
 16. [Lambda](https://github.com/hyomee/JAVA_EDU/tree/main/L)
    - JAVA의 함수형 프로그램을 하기 위한 람다 이해
    - 학습 내용 : [Lambda](https://github.com/hyomee/JAVA_EDU/blob/main/L/JAVA_Lambda.pdf)
-
+   
 17. Stream
 18. Annotation
 19. JAVA I/0
