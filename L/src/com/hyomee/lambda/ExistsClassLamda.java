@@ -3,6 +3,7 @@ package com.hyomee.lambda;
 class Customer {
   private int custNo;
   private String custName;
+
   Customer(int custNo, String custName) {
     this.custNo = custNo;
     this.custName = custName;
