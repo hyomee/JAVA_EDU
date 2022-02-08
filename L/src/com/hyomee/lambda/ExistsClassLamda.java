@@ -1,5 +1,7 @@
 package com.hyomee.lambda;
 
+import java.util.function.BiFunction;
+
 class Customer {
   private int custNo;
   private String custName;
@@ -40,7 +42,9 @@ interface IfExistsClassMethod01 {
 public class ExistsClassLamda {
   public void printCust() {
     IfExistsClass iec = (name) -> {
-      Customer customer = new Customer(20, "춘향") ;
+      BiFunction<Integer, String, Customer> customerFn = Customer ::new;
+      Customer customer = customerFn.apply(20, "춘향");
+      // Customer customer = new Customer(20, "춘향") ;
       customer.printCust();
       customer.changeName(name);
       customer.printCust();
@@ -50,6 +54,7 @@ public class ExistsClassLamda {
     Customer customer = iec.getCust("이도령");
     System.out.println(customer.getCustNo());
     System.out.println(customer.getCustName());
+
 
     Customer customer01 = new Customer(10, "온달");
     IfExistsClassMethod iecm = customer01::getCustName;
