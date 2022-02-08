@@ -42,9 +42,14 @@ interface IfExistsClassMethod01 {
 public class ExistsClassLamda {
   public void printCust() {
     IfExistsClass iec = (name) -> {
-      BiFunction<Integer, String, Customer> customerFn = Customer ::new;
-      Customer customer = customerFn.apply(20, "춘향");
       // Customer customer = new Customer(20, "춘향") ;
+
+      // BiFunction<Integer, String, Customer> customerFn = Customer ::new;
+      // Customer customer = customerFn.apply(20, "춘향");
+
+      BiFunction<Integer, String, Customer> customerFn = (custNo, custNm) -> new Customer(custNo, custNm);
+      Customer customer = customerFn.apply(20, "춘향");
+
       customer.printCust();
       customer.changeName(name);
       customer.printCust();
