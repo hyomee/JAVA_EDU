@@ -28,6 +28,7 @@ class Customer {
     this.custName = custName;
   }
 
+
   static int staticMethod(int a) {
     return a;
   }
@@ -55,7 +56,9 @@ interface IfExistsClassStaticMethod {
   int runStaticMethod(int ages);
 }
 
-
+interface IfExistsClassRefClass {
+  void changeName(Customer customer, String custName);
+}
 
 public class ExistsClassLamda {
   private static Customer getCust(String name) {
@@ -96,7 +99,12 @@ public class ExistsClassLamda {
     // static 메서드
     IfExistsClassStaticMethod iecsm = Customer::staticMethod;
     System.out.println("iecsm :: " + iecsm.runStaticMethod(20));
-    ;
+
+    // 첫번째 매개변수로 전달된 매개변수를 사용 함
+    IfExistsClassRefClass iecrc = Customer :: changeName;
+    iecrc.changeName(customer01, "탐라");
+    System.out.println("iecm01 :: " + customer01.getCustNo());
+    System.out.println("iecm01 :: " + customer01.getCustName());
   }
 
 
