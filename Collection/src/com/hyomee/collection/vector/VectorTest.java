@@ -9,6 +9,8 @@ public class VectorTest {
 
   public VectorTest() {
     strList = new Vector<>();
+
+    Stack s = new Stack();
   }
 
   public void VectorApiTest() {
