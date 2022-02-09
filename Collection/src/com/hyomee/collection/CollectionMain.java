@@ -1,6 +1,7 @@
 package com.hyomee.collection;
 
 import com.hyomee.collection.arrayList.ArrayListTest;
+import com.hyomee.collection.linkedList.LinkedListTest;
 import com.hyomee.collection.vector.VectorTest;
 
 public class CollectionMain {
@@ -17,5 +18,9 @@ public class CollectionMain {
     // VectorTest
     VectorTest vectorTest = new VectorTest();
     vectorTest.VectorApiTest();
+
+    // LinkedListTest
+    LinkedListTest linkedListTest = new LinkedListTest();
+    linkedListTest.LinkedListApiTest();
   }
 }
