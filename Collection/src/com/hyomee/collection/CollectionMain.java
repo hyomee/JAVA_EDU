@@ -1,6 +1,7 @@
 package com.hyomee.collection;
 
 import com.hyomee.collection.arrayList.ArrayListTest;
+import com.hyomee.collection.vector.VectorTest;
 
 public class CollectionMain {
   public static void main(String... args) {
@@ -12,5 +13,9 @@ public class CollectionMain {
     // ArrayList
     ArrayListTest arrayListTest = new ArrayListTest();
     arrayListTest.ArrayListApiTest();
+
+    // VectorTest
+    VectorTest vectorTest = new VectorTest();
+    vectorTest.VectorApiTest();
   }
 }
