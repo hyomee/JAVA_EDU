@@ -1,4 +1,4 @@
-package com.hyomee.collection.stack;
+package com.hyomee.collection.list.vector.stack;
 
 import java.util.Stack;
 

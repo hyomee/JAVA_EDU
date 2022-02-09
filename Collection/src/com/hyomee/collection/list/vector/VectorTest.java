@@ -1,16 +1,20 @@
-package com.hyomee.collection.arrayList;
+package com.hyomee.collection.list.vector;
+
 
 import java.util.*;
 
 
-public class ArrayListTest {
+public class VectorTest {
   private final List<String> strList;
 
-  public ArrayListTest() {
-    strList = new ArrayList<>();
+  public VectorTest() {
+    strList = new Vector<>();
+
+    Stack s = new Stack();
   }
 
-  public void ArrayListApiTest() {
+  public void VectorApiTest() {
+    System.out.println("========== VectorApiTest ===========");
     addtMethod();
     removeMethod();
     getMethod();
@@ -18,7 +22,6 @@ public class ArrayListTest {
     copyMethod();
     shallowCopyObjectMethod();
     deepCopyObjectMethod();
-    toArray();
   }
 
   // 요소에 데이터 추가
@@ -36,7 +39,7 @@ public class ArrayListTest {
     // 결과 : [삼성자동차, 현대자동차, 기아자동차]
 
     // 컬렉션을 요소에 추가
-    List<String> strCollection =  new ArrayList<>();
+    List<String> strCollection =  new Vector<>();
     strCollection.add("포드자동차");
     strCollection.add("도시바자동차");
     System.out.println("strCollection " + strCollection.toString());
@@ -47,7 +50,7 @@ public class ArrayListTest {
     System.out.println("strList " + strList.toString());
     // 결과 : [삼성자동차, 현대자동차, 기아자동차, 포드자동차, 도시바자동차]
 
-    List<String> strCollection01 =  new ArrayList<>();
+    List<String> strCollection01 =  new Vector<>();
     strCollection01.add("포르쉐자동차");
     strCollection01.add("BMW자동차");
     System.out.println("strCollection01 " + strCollection01.toString());
@@ -66,7 +69,7 @@ public class ArrayListTest {
     // 결과 : [삼성자동차, 현대자동차, 포르쉐자동차, BMW자동차, 포드자동차, 도시바자동차]
 
 
-    List<String> strCollection01 =  new ArrayList<>();
+    List<String> strCollection01 =  new Vector<>();
     strCollection01.add("포르쉐자동차");
     strCollection01.add("BMW자동차");
     System.out.println("removeMethod : strCollection01 " + strCollection01.toString());
@@ -193,7 +196,7 @@ public class ArrayListTest {
     System.out.println("복사 : strListTemp : " + strListTemp);
     // 결과 : [추가, 현대자동차대신, 현대자동차, 포르쉐자동차, 포드자동차, 삼성자동차, 도시바자동차, 기아자동차, Z, BMW자동차, a, A]
 
-    List<String> strListTemp01 = new ArrayList<>();;
+    List<String> strListTemp01 = new Vector<>();;
     for (String str : strList ) {
       strListTemp01.add(str);
     }
@@ -208,129 +211,49 @@ public class ArrayListTest {
 
   private void  shallowCopyObjectMethod() {
 
-    ArrayList<Customer> customerArrayList = new ArrayList<>();
-    customerArrayList.add(new Customer("홍길동", 18));
-    customerArrayList.add(new Customer("홍당무", 20));
-    ArrayList<Customer> copyOfcustomerArrayList = (ArrayList<Customer>) customerArrayList.clone();
-    System.out.println("원본 : customerArrayList : " + customerArrayList);
+    Vector<Customer> customerVector = new Vector<>();
+    customerVector.add(new Customer("홍길동", 18));
+    customerVector.add(new Customer("홍당무", 20));
+    Vector<Customer> copyOfcustomerVector = (Vector<Customer>) customerVector.clone();
+    System.out.println("원본 : customerVector : " + customerVector);
     // 결과 : [Customer{name='홍길동', age=18}, Customer{name='홍당무', age=20}]
-    System.out.println("복사 : copyOfcustomerArrayList : " + copyOfcustomerArrayList);
+    System.out.println("복사 : copyOfcustomerVector : " + copyOfcustomerVector);
     // 결과 : [Customer{name='홍길동', age=18}, Customer{name='홍당무', age=20}]
 
-    Customer customer = copyOfcustomerArrayList.get(0);
+    Customer customer = copyOfcustomerVector.get(0);
     customer.setName("김순길");
     customer.setAge(25);
-    System.out.println("원본 : customerArrayList : " + customerArrayList);
+    System.out.println("원본 : customerVector : " + customerVector);
     // 결과 : [Customer{name='김순길', age=25}, Customer{name='홍당무', age=20}]
-    System.out.println("복사 : copyOfcustomerArrayList : " + copyOfcustomerArrayList);
+    System.out.println("복사 : copyOfcustomerVector : " + copyOfcustomerVector);
     // 결과 : [Customer{name='김순길', age=25}, Customer{name='홍당무', age=20}]
 
   }
 
   private void  deepCopyObjectMethod() {
-    ArrayList<CustomerClone> customerArrayList = new ArrayList<>();
-    customerArrayList.add(new CustomerClone("홍길동", 18));
-    customerArrayList.add(new CustomerClone("홍당무", 20));
-    ArrayList<CustomerClone> copyOfcustomerArrayList = new ArrayList<>();
-    for ( CustomerClone customerClone : customerArrayList) {
-      copyOfcustomerArrayList.add(customerClone.clone());
+    Vector<CustomerClone> customerVector = new Vector<>();
+    customerVector.add(new CustomerClone("홍길동", 18));
+    customerVector.add(new CustomerClone("홍당무", 20));
+    Vector<CustomerClone> copyOfcustomerVector = new Vector<>();
+    for ( CustomerClone customerClone : customerVector) {
+      copyOfcustomerVector.add(customerClone.clone());
     }
 
-    System.out.println("원본 : customerArrayList : " + customerArrayList);
+    System.out.println("원본 : customerVector : " + customerVector);
     // 결과 : [Customer{name='홍길동', age=18}, Customer{name='홍당무', age=20}]
-    System.out.println("복사 : copyOfcustomerArrayList : " + copyOfcustomerArrayList);
+    System.out.println("복사 : copyOfcustomerVector : " + copyOfcustomerVector);
     // 결과 : [Customer{name='홍길동', age=18}, Customer{name='홍당무', age=20}]
 
-    CustomerClone customerClone = copyOfcustomerArrayList.get(0);
+    CustomerClone customerClone = copyOfcustomerVector.get(0);
     customerClone.setName("김순길");
     customerClone.setAge(25);
 
-    System.out.println("원본 : customerArrayList : " + customerArrayList);
+    System.out.println("원본 : customerVector : " + customerVector);
     // 결과 : [Customer{name='홍길동', age=18}, Customer{name='홍당무', age=20}]
-    System.out.println("복사 : copyOfcustomerArrayList : " + copyOfcustomerArrayList);
+    System.out.println("복사 : copyOfcustomerVector : " + copyOfcustomerVector);
     // 결과 : [Customer{name='김순길', age=25}, Customer{name='홍당무', age=20}]
   }
 
-  private void toArray() {
-    List<String> strCars =  new ArrayList<>();
-    strCars.add("포르쉐자동차");
-    strCars.add("BMW자동차");
 
-    Object[] ob = strCars.toArray();
-    System.out.println("strCars.toArray : " + Arrays.toString(ob));
-    // 결과 : [포르쉐자동차, BMW자동차]
-
-    String[] strings01 = strCars.toArray(new String[0]);
-    System.out.println("strCars.toArray(new String[0] : " + Arrays.toString(strings01));
-    // 결과 : [포르쉐자동차, BMW자동차]
-
-    String[] strings02 = strCars.toArray(new String[4]);
-    System.out.println("strCars.toArray(new String[4] : " + Arrays.toString(strings02));
-    // 결과 : [포르쉐자동차, BMW자동차, null, null]
-  }
 }
 
-class Customer {
-
-  private String name;
-  private int age;
-
-  Customer(String name, int age) {
-    this.name = name;
-    this.age = age;
-  }
-
-  public void setName(String name) {
-    this.name = name;
-  }
-
-  public void setAge(int age) {
-    this.age = age;
-  }
-
-  @Override
-  public String toString() {
-    return "Customer{" +
-            "name='" + name + '\'' +
-            ", age=" + age +
-            '}';
-  }
-}
-
-class CustomerClone implements Cloneable {
-
-  private String name;
-  private int age;
-
-  CustomerClone(String name, int age) {
-    this.name = name;
-    this.age = age;
-  }
-
-  public void setName(String name) {
-    this.name = name;
-  }
-
-  public void setAge(int age) {
-    this.age = age;
-  }
-
-  @Override
-  public String toString() {
-    return "Customer{" +
-            "name='" + name + '\'' +
-            ", age=" + age +
-            '}';
-  }
-
-  @Override
-  public CustomerClone clone() {
-    try {
-      CustomerClone clone = (CustomerClone) super.clone();
-      // TODO: copy mutable state here, so the clone can't change the internals of the original
-      return clone;
-    } catch (CloneNotSupportedException e) {
-      throw new AssertionError();
-    }
-  }
-}

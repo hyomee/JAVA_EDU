@@ -1,4 +1,4 @@
-package com.hyomee.collection.vector;
+package com.hyomee.collection.list.vector;
 
 
 class CustomerClone implements Cloneable {

@@ -1,8 +1,8 @@
 package com.hyomee.collection;
 
-import com.hyomee.collection.arrayList.ArrayListTest;
-import com.hyomee.collection.linkedList.LinkedListTest;
-import com.hyomee.collection.vector.VectorTest;
+import com.hyomee.collection.list.arrayList.ArrayListTest;
+import com.hyomee.collection.list.linkedList.LinkedListTest;
+import com.hyomee.collection.list.vector.VectorTest;
 
 public class CollectionMain {
   public static void main(String... args) {

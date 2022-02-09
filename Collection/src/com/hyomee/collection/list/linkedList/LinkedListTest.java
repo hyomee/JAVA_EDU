@@ -1,20 +1,22 @@
-package com.hyomee.collection.vector;
+package com.hyomee.collection.list.linkedList;
 
 
-import java.util.*;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.List;
 
 
-public class VectorTest {
+
+public class LinkedListTest {
   private final List<String> strList;
 
-  public VectorTest() {
-    strList = new Vector<>();
-
-    Stack s = new Stack();
+  public LinkedListTest() {
+    strList = new LinkedList<>();
   }
 
-  public void VectorApiTest() {
-    System.out.println("========== VectorApiTest ===========");
+  public void LinkedListApiTest() {
+    System.out.println("========== LinkedListApiTest ===========");
     addtMethod();
     removeMethod();
     getMethod();
@@ -39,7 +41,7 @@ public class VectorTest {
     // 결과 : [삼성자동차, 현대자동차, 기아자동차]
 
     // 컬렉션을 요소에 추가
-    List<String> strCollection =  new Vector<>();
+    List<String> strCollection =  new LinkedList<>();
     strCollection.add("포드자동차");
     strCollection.add("도시바자동차");
     System.out.println("strCollection " + strCollection.toString());
@@ -50,7 +52,7 @@ public class VectorTest {
     System.out.println("strList " + strList.toString());
     // 결과 : [삼성자동차, 현대자동차, 기아자동차, 포드자동차, 도시바자동차]
 
-    List<String> strCollection01 =  new Vector<>();
+    List<String> strCollection01 =  new LinkedList<>();
     strCollection01.add("포르쉐자동차");
     strCollection01.add("BMW자동차");
     System.out.println("strCollection01 " + strCollection01.toString());
@@ -69,7 +71,7 @@ public class VectorTest {
     // 결과 : [삼성자동차, 현대자동차, 포르쉐자동차, BMW자동차, 포드자동차, 도시바자동차]
 
 
-    List<String> strCollection01 =  new Vector<>();
+    List<String> strCollection01 =  new LinkedList<>();
     strCollection01.add("포르쉐자동차");
     strCollection01.add("BMW자동차");
     System.out.println("removeMethod : strCollection01 " + strCollection01.toString());
@@ -196,7 +198,7 @@ public class VectorTest {
     System.out.println("복사 : strListTemp : " + strListTemp);
     // 결과 : [추가, 현대자동차대신, 현대자동차, 포르쉐자동차, 포드자동차, 삼성자동차, 도시바자동차, 기아자동차, Z, BMW자동차, a, A]
 
-    List<String> strListTemp01 = new Vector<>();;
+    List<String> strListTemp01 = new LinkedList<>();;
     for (String str : strList ) {
       strListTemp01.add(str);
     }
@@ -211,46 +213,46 @@ public class VectorTest {
 
   private void  shallowCopyObjectMethod() {
 
-    Vector<Customer> customerVector = new Vector<>();
-    customerVector.add(new Customer("홍길동", 18));
-    customerVector.add(new Customer("홍당무", 20));
-    Vector<Customer> copyOfcustomerVector = (Vector<Customer>) customerVector.clone();
-    System.out.println("원본 : customerVector : " + customerVector);
+    LinkedList<com.hyomee.collection.list.linkedList.Customer> customerLinkedList = new LinkedList<>();
+    customerLinkedList.add(new com.hyomee.collection.list.linkedList.Customer("홍길동", 18));
+    customerLinkedList.add(new com.hyomee.collection.list.linkedList.Customer("홍당무", 20));
+    LinkedList<com.hyomee.collection.list.linkedList.Customer> copyOfcustomerLinkedList = (LinkedList<com.hyomee.collection.list.linkedList.Customer>) customerLinkedList.clone();
+    System.out.println("원본 : customerLinkedList : " + customerLinkedList);
     // 결과 : [Customer{name='홍길동', age=18}, Customer{name='홍당무', age=20}]
-    System.out.println("복사 : copyOfcustomerVector : " + copyOfcustomerVector);
+    System.out.println("복사 : copyOfcustomerLinkedList : " + copyOfcustomerLinkedList);
     // 결과 : [Customer{name='홍길동', age=18}, Customer{name='홍당무', age=20}]
 
-    Customer customer = copyOfcustomerVector.get(0);
+    com.hyomee.collection.list.linkedList.Customer customer = copyOfcustomerLinkedList.get(0);
     customer.setName("김순길");
     customer.setAge(25);
-    System.out.println("원본 : customerVector : " + customerVector);
+    System.out.println("원본 : customerLinkedList : " + customerLinkedList);
     // 결과 : [Customer{name='김순길', age=25}, Customer{name='홍당무', age=20}]
-    System.out.println("복사 : copyOfcustomerVector : " + copyOfcustomerVector);
+    System.out.println("복사 : copyOfcustomerLinkedList : " + copyOfcustomerLinkedList);
     // 결과 : [Customer{name='김순길', age=25}, Customer{name='홍당무', age=20}]
 
   }
 
   private void  deepCopyObjectMethod() {
-    Vector<CustomerClone> customerVector = new Vector<>();
-    customerVector.add(new CustomerClone("홍길동", 18));
-    customerVector.add(new CustomerClone("홍당무", 20));
-    Vector<CustomerClone> copyOfcustomerVector = new Vector<>();
-    for ( CustomerClone customerClone : customerVector) {
-      copyOfcustomerVector.add(customerClone.clone());
+    LinkedList<com.hyomee.collection.list.linkedList.CustomerClone> customerLinkedList = new LinkedList<>();
+    customerLinkedList.add(new com.hyomee.collection.list.linkedList.CustomerClone("홍길동", 18));
+    customerLinkedList.add(new com.hyomee.collection.list.linkedList.CustomerClone("홍당무", 20));
+    LinkedList<com.hyomee.collection.list.linkedList.CustomerClone> copyOfcustomerLinkedList = new LinkedList<>();
+    for ( com.hyomee.collection.list.linkedList.CustomerClone customerClone : customerLinkedList) {
+      copyOfcustomerLinkedList.add(customerClone.clone());
     }
 
-    System.out.println("원본 : customerVector : " + customerVector);
+    System.out.println("원본 : customerLinkedList : " + customerLinkedList);
     // 결과 : [Customer{name='홍길동', age=18}, Customer{name='홍당무', age=20}]
-    System.out.println("복사 : copyOfcustomerVector : " + copyOfcustomerVector);
+    System.out.println("복사 : copyOfcustomerLinkedList : " + copyOfcustomerLinkedList);
     // 결과 : [Customer{name='홍길동', age=18}, Customer{name='홍당무', age=20}]
 
-    CustomerClone customerClone = copyOfcustomerVector.get(0);
+    com.hyomee.collection.list.linkedList.CustomerClone customerClone = copyOfcustomerLinkedList.get(0);
     customerClone.setName("김순길");
     customerClone.setAge(25);
 
-    System.out.println("원본 : customerVector : " + customerVector);
+    System.out.println("원본 : customerLinkedList : " + customerLinkedList);
     // 결과 : [Customer{name='홍길동', age=18}, Customer{name='홍당무', age=20}]
-    System.out.println("복사 : copyOfcustomerVector : " + copyOfcustomerVector);
+    System.out.println("복사 : copyOfcustomerLinkedList : " + copyOfcustomerLinkedList);
     // 결과 : [Customer{name='김순길', age=25}, Customer{name='홍당무', age=20}]
   }
 

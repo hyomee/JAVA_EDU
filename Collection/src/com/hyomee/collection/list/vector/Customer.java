@@ -1,4 +1,4 @@
-package com.hyomee.collection.linkedList;
+package com.hyomee.collection.list.vector;
 
 
 class Customer {
