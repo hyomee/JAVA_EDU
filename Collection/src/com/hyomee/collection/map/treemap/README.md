@@ -1,9 +1,7 @@
-## Map
-#### Key, Value 구조 ( Entry )로 데이터를 저장 
+## TreeMap
+#### 데이터의 크기 순으로 출력, Map<K,V>의 성질을 그대로 유지 하면서 정렬과 검색이 추가됨 
 
-![image](https://user-images.githubusercontent.com/11780795/153625683-72446c47-9498-41dc-b8e1-f60f28dbed99.png)
+![image](https://user-images.githubusercontent.com/11780795/153630838-9022e169-a587-4d3b-842e-89527c7cac51.png)
 
-* [HashMap](https://github.com/hyomee/JAVA_EDU/blob/main/Collection/src/com/hyomee/collection/map/HashMapClass.java)
-* [LinkedHashMap](https://github.com/hyomee/JAVA_EDU/blob/main/Collection/src/com/hyomee/collection/map/LinkedHashMapClass.java)
-* [Hashtable](https://github.com/hyomee/JAVA_EDU/blob/main/Collection/src/com/hyomee/collection/map/HashTableClass.java)
-* [TreeMap](https://github.com/hyomee/JAVA_EDU/blob/main/Collection/src/com/hyomee/collection/map/TreeMapClass.java)
+
+
