@@ -8,5 +8,6 @@ public class MapTestMain {
     HashMapClass hashMapClass = new HashMapClass();
     HashTableClass hashTableClass = new HashTableClass();
     LinkedHashMapClass linkedHashMapClass = new LinkedHashMapClass();
+    TreeMapClass treeMapClass = new TreeMapClass();
   }
 }
