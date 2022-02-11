@@ -1,5 +1,6 @@
 package com.hyomee.collection.set;
 
+import java.util.NavigableSet;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
@@ -13,7 +14,8 @@ class TreeSetCass  {
     setMethod();
     treeSet.clear();
     sortedSet();
-
+    treeSet.clear();
+    navigableSet();
   }
 
   void insertTreeSet() {
@@ -61,5 +63,27 @@ class TreeSetCass  {
     System.out.println("* SortedSet subSet(3, true, 6, true) : " + subSetFromToInclude.toString());
     SortedSet subSetFromTofalse = treeSet.subSet(3, false, 6, false);
     System.out.println("* SortedSet subSet(3, false, 6, false) : " + subSetFromTofalse.toString());
+  }
+
+
+  void navigableSet() {
+    insertTreeSet();
+    NavigableSet headSet = treeSet.headSet(5, true);
+    System.out.println("* TreeSet treeSet : " + treeSet.toString());
+    System.out.println("* NavigableSet headSet(5, true) : " + headSet.toString());
+    NavigableSet tailSet = treeSet.tailSet(5, false);
+    System.out.println("* NavigableSet tailSet(5, false) : " + tailSet.toString());
+
+    NavigableSet subSetfromInclude = treeSet.subSet(3, true, 6, false);
+    System.out.println("* NavigableSet subSet(3, true, 6, false) : " + subSetfromInclude.toString());
+    NavigableSet subSetToInclude = treeSet.subSet(3, false, 6, true);
+    System.out.println("* NavigableSet subSet(3, false, 6, true) : " + subSetToInclude.toString());
+    NavigableSet subSetFromToInclude = treeSet.subSet(3, true, 6, true);
+    System.out.println("* NavigableSet subSet(3, true, 6, true) : " + subSetFromToInclude.toString());
+    NavigableSet subSetFromTofalse = treeSet.subSet(3, false, 6, false);
+    System.out.println("* NavigableSet subSet(3, false, 6, false) : " + subSetFromTofalse.toString());
+
+    NavigableSet descendingSet = treeSet.descendingSet();
+    System.out.println("* NavigableSet descendingSet : " + descendingSet.toString());
   }
 }
