@@ -1,5 +1,6 @@
 package com.hyomee.collection.set;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -17,6 +18,7 @@ class HashSetClass {
     containsAll();
     size();
     iterator();
+    convertArray();
   }
 
   void add() {
@@ -92,6 +94,16 @@ class HashSetClass {
       System.out.println(String.format("* strSet : 요소 :  %s ",
               strSetingIterator.next()));
     }
+  }
+
+  void convertArray() {
+    String[] strArray = strSet.toArray(new String[0]);
+    System.out.println(String.format("* strArray : 요소 :  %s ",
+            Arrays.toString(strArray)));
+
+    String[] strArray01 = strSet.toArray(new String[5]);
+    System.out.println(String.format("* strArray01 : 요소 :  %s ",
+            Arrays.toString(strArray01)));
   }
 
 }
