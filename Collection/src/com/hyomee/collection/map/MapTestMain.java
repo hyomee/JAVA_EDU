@@ -1,7 +1,9 @@
 package com.hyomee.collection.map;
 
-import java.util.HashMap;
-import java.util.Map;
+import com.hyomee.collection.map.hashmap.HashMapClass;
+import com.hyomee.collection.map.hashtable.HashTableClass;
+import com.hyomee.collection.map.linkedhashmap.LinkedHashMapClass;
+import com.hyomee.collection.map.treemap.TreeMapClass;
 
 public class MapTestMain {
   public static void main(String... args) {

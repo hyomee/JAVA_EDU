@@ -1,11 +1,11 @@
-package com.hyomee.collection.map;
+package com.hyomee.collection.map.treemap;
 
 import java.util.*;
 
-class TreeMapClass {
+public class TreeMapClass {
   TreeMap<Integer, String> map = new TreeMap<Integer, String>();                 //  TreeMap생성  :
 
-  TreeMapClass() {
+  public TreeMapClass() {
     System.out.println("* TreeMapClass ================");
     insertTreeMap();
     getTreeMapK();
