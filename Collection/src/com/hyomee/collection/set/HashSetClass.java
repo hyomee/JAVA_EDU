@@ -43,6 +43,7 @@ class HashSetClass {
     Set<String> strSet01 = new HashSet<String>();
     strSet01.add("대한");
     strSet01.add("민국");
+    strSet01.add("미국");
     strSet.removeAll(strSet01);
     System.out.println("* removeAll : " +strSet.toString());
   }
@@ -91,7 +92,6 @@ class HashSetClass {
       System.out.println(String.format("* strSet : 요소 :  %s ",
               strSetingIterator.next()));
     }
-
   }
 
 }
