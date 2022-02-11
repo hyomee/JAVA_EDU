@@ -65,7 +65,6 @@ class TreeMapClass {
     System.out.println("* NavigableMap headMap(5, true) : " + headMap.toString());
     NavigableMap tailMap = map.tailMap(5, false);
     System.out.println("* NavigableMap tailMap(5, false) : " + tailMap.toString());
-
     NavigableMap subMapfromInclude = map.subMap(3, true, 6, false);
     System.out.println("* NavigableMap subMap(3, true, 6, false) : " + subMapfromInclude.toString());
     NavigableMap subMaptToInclude = map.subMap(3, false, 6, true);
@@ -74,7 +73,6 @@ class TreeMapClass {
     System.out.println("* NavigableMap subMap(3, true, 6, true) : " + subMapFromToInclude.toString());
     NavigableMap subMapFromTofalse = map.subMap(3, false, 6, false);
     System.out.println("* NavigableMap subMap(3, false, 6, false) : " + subMapFromTofalse.toString());
-
     NavigableMap descendingMap = map.descendingMap();
     System.out.println("* NavigableMap descendingMap : " + descendingMap.toString());
   }
