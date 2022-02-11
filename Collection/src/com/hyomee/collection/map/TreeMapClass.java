@@ -1,9 +1,6 @@
 package com.hyomee.collection.map;
 
-import java.util.Collections;
-import java.util.SortedMap;
-import java.util.SortedSet;
-import java.util.TreeMap;
+import java.util.*;
 
 class TreeMapClass {
   TreeMap<Integer, String> map = new TreeMap<Integer, String>();                 //  TreeMap생성  :
@@ -15,6 +12,8 @@ class TreeMapClass {
     getTreeMapEntry();
     map.clear();
     sortedMap();
+    map.clear();
+    navigableMap();
   }
 
   void insertTreeMap() {
@@ -56,5 +55,27 @@ class TreeMapClass {
     System.out.println("* SortedMap tailMap(5) : " + tailMap.toString());
     SortedMap subMap = map.subMap(3,6);
     System.out.println("* SortedMap subMap(3,6) : " + subMap.toString());
+  }
+
+
+  void navigableMap() {
+    insertTreeMap();
+    NavigableMap headMap = map.headMap(5, true);
+    System.out.println("* TreeSet treeSet : " + map.toString());
+    System.out.println("* NavigableMap headMap(5, true) : " + headMap.toString());
+    NavigableMap tailMap = map.tailMap(5, false);
+    System.out.println("* NavigableMap tailMap(5, false) : " + tailMap.toString());
+
+    NavigableMap subMapfromInclude = map.subMap(3, true, 6, false);
+    System.out.println("* NavigableMap subMap(3, true, 6, false) : " + subMapfromInclude.toString());
+    NavigableMap subMaptToInclude = map.subMap(3, false, 6, true);
+    System.out.println("* NavigableMap subMap(3, false, 6, true) : " + subMaptToInclude.toString());
+    NavigableMap subMapFromToInclude = map.subMap(3, true, 6, true);
+    System.out.println("* NavigableMap subMap(3, true, 6, true) : " + subMapFromToInclude.toString());
+    NavigableMap subMapFromTofalse = map.subMap(3, false, 6, false);
+    System.out.println("* NavigableMap subMap(3, false, 6, false) : " + subMapFromTofalse.toString());
+
+    NavigableMap descendingMap = map.descendingMap();
+    System.out.println("* NavigableMap descendingMap : " + descendingMap.toString());
   }
 }
