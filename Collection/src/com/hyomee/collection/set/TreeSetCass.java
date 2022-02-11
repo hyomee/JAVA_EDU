@@ -52,6 +52,7 @@ class TreeSetCass  {
     System.out.println("* SortedSet tailSet(5) : " + tailSet.toString());
     SortedSet subSet = treeSet.subSet(3,6);
     System.out.println("* SortedSet subSet(3,6) : " + subSet.toString());
+
     SortedSet subSetfromInclude = treeSet.subSet(3, true, 6, false);
     System.out.println("* SortedSet subSet(3, true, 6, false) : " + subSetfromInclude.toString());
     SortedSet subSetToInclude = treeSet.subSet(3, false, 6, true);
