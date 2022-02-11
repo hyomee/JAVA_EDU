@@ -50,7 +50,7 @@ class TreeMapClass {
   void sortedMap() {
     insertTreeMap();
     SortedMap headMap = map.headMap(5);
-    System.out.println("* TreeSet treeSet : " + map.toString());
+    System.out.println("* TreeMap map : " + map.toString());
     System.out.println("* SortedMap headMap(5) : " + headMap.toString());
     SortedMap tailMap = map.tailMap(5);
     System.out.println("* SortedMap tailMap(5) : " + tailMap.toString());
