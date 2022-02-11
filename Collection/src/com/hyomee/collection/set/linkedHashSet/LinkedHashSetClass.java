@@ -1,4 +1,4 @@
-package com.hyomee.collection.set;
+package com.hyomee.collection.set.linkedHashSet;
 
 import java.util.Arrays;
 import java.util.LinkedHashSet;
@@ -8,7 +8,7 @@ import java.util.Set;
 public class LinkedHashSetClass {
   Set<String> strSet = new LinkedHashSet<String>();
 
-  LinkedHashSetClass() {
+  public LinkedHashSetClass() {
     System.out.println("* LinkedHashSet ================");
     add();
     addAll();

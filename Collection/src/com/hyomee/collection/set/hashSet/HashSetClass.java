@@ -1,14 +1,14 @@
-package com.hyomee.collection.set;
+package com.hyomee.collection.set.hashSet;
 
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-class HashSetClass {
+public class HashSetClass {
   Set<String> strSet = new HashSet<String>();
 
-  HashSetClass() {
+  public HashSetClass() {
     add();
     addAll();
     remove();

@@ -1,7 +1,8 @@
 package com.hyomee.collection.set;
 
-import java.util.HashSet;
-import java.util.Set;
+import com.hyomee.collection.set.hashSet.HashSetClass;
+import com.hyomee.collection.set.linkedHashSet.LinkedHashSetClass;
+import com.hyomee.collection.set.treeSet.TreeSetCass;
 
 public class SetTestMain {
   public static void main(String... args) {

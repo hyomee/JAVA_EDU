@@ -1,13 +1,13 @@
-package com.hyomee.collection.set;
+package com.hyomee.collection.set.treeSet;
 
 import java.util.NavigableSet;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
-class TreeSetCass  {
+public class TreeSetCass  {
   TreeSet<Integer> treeSet = new TreeSet<Integer>();
 
-  TreeSetCass() {
+  public TreeSetCass() {
     System.out.println("* TreeSetCass ================");
     insertTreeSet();
     getTreeSet();
