@@ -32,7 +32,7 @@ class TreeSetCass  {
     System.out.println("* TreeSet pollFirst :  " + treeSet.pollFirst());
     System.out.println("* TreeSet pollFirst 이후, pollLast 이전 : " + treeSet.toString());
     System.out.println("* TreeSet pollLast :  " + treeSet.pollLast());
-    System.out.println("* TreeSet 전체 : " + treeSet.toString());
+    System.out.println("* TreeSet pollLast 이후 : " + treeSet.toString());
   }
 
   void setMethod() {
