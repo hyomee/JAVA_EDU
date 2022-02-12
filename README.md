@@ -30,7 +30,7 @@
    - Collection 객체 이해 , API 사용법 학습 
    - 학습 내용 : [Collections](https://github.com/hyomee/JAVA_EDU/blob/main/Collection/JAVA_Collection.pdf)
 
-8. [상속 Extend/Absctract/Implements]()
+8. [상속 Extend/Absctract/Implements](https://github.com/hyomee/JAVA_EDU/tree/main/ExtendsAndImplements)
    - 상속 개념 학습, Extend/Absctract/Implements 학습
    - 학습 내용 : [Collections](https://github.com/hyomee/JAVA_EDU/blob/main/Collection/JAVA_Collection.pdf)
    
