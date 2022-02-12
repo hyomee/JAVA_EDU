@@ -32,7 +32,7 @@
 
 8. [상속 Extend/Absctract/Implements](https://github.com/hyomee/JAVA_EDU/tree/main/ExtendsAndImplements)
    - 상속 개념 학습, Extend/Absctract/Implements 학습
-   - 학습 내용 : [Collections](https://github.com/hyomee/JAVA_EDU/blob/main/Collection/JAVA_Collection.pdf)
+   - 학습 내용 : [Extend/Absctract/Implements](https://github.com/hyomee/JAVA_EDU/blob/main/ExtendsAndImplements/JAVA_Extends.pdf)
    
 9. Inner Class/Interface
 10. Thread
