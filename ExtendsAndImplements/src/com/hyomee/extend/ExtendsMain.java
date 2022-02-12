@@ -8,7 +8,14 @@ public class ExtendsMain {
     Human human = student;
 
     Human studentHuman = new Student();
-    Student student01 = (Student) studentHuman;
+    Student student01;
+    if (studentHuman instanceof Student) {
+      System.out.println("human01을 Student로 Castring 가능 합니다.");
+      student01 = (Student) studentHuman;
+    } else {
+      System.out.println("human01을 Student로 Castring 불가 합니다.");
+    }
+
 
     // class com.hyomee.extend.Human cannot be cast to class com.hyomee.extend.Student
     // Student student02 = new Human();
@@ -21,6 +28,17 @@ public class ExtendsMain {
     // (com.hyomee.extend.Human and com.hyomee.extend.Student are in unnamed module of loader 'app')
     // Human human01 = new Human();
     // Student student04 = (Student) human01;
+
+    Human human01 = new Human();
+    Student student04 ;
+    if (human01 instanceof Student) {
+      System.out.println("human01을 Student로 Castring 가능 합니다.");
+      student04 = (Student) human01;
+    } else {
+      System.out.println("human01을 Student로 Castring 불가 합니다.");
+    }
+
+
 
   }
 }
