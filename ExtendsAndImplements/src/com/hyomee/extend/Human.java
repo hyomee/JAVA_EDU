@@ -2,13 +2,6 @@ package com.hyomee.extend;
 
 public class Human {
   private String name;
-  void setName(String name) {
-    this.name = name;
-  }
-  String getName() {
-    return this.name;
-  }
-
   int age;
   float weight;
   float height;
@@ -20,6 +13,13 @@ public class Human {
     this.name = name;
   }
 
+  void setName(String name) {
+    this.name = name;
+  }
+
+  String getName() {
+    return this.name;
+  }
 
   void eat() {
     System.out.println("먹는다.");

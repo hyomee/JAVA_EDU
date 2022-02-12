@@ -2,6 +2,7 @@ package com.hyomee.extend;
 
 public class Adult extends Human {
   Adult() {}
+
   Adult(String name) {
     // Call to 'super()' must be first statement in constructor body
     // System.out.println("Adult OverLoading 생성자 호출");
