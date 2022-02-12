@@ -21,18 +21,18 @@
 5. [Class & Object & Modifier](https://github.com/hyomee/JAVA_EDU/tree/main/ClassObject)
    - Class와 Object의 개념, OOP 이해 
    - 학습 내용 : [Class&Object](https://github.com/hyomee/JAVA_EDU/blob/main/ClassObject/JAVA_Class.pdf)
+
+6. [상속 Extend/Absctract/Implements](https://github.com/hyomee/JAVA_EDU/tree/main/ExtendsAndImplements)
+   - 상속 개념 학습, Extend/Absctract/Implements 학습
+   - 학습 내용 : [Extend/Absctract/Implements](https://github.com/hyomee/JAVA_EDU/blob/main/ExtendsAndImplements/JAVA_Extends.pdf)
    
-6. [Generic Method](https://github.com/hyomee/JAVA_EDU/tree/main/genericMethod)
+7. [Generic Method](https://github.com/hyomee/JAVA_EDU/tree/main/genericMethod)
    - Generic의 개념, Generic Method 이해 
    - 학습 내용 : [Generic Method](https://github.com/hyomee/JAVA_EDU/blob/main/genericMethod/JAVA_Generic.pdf)
    
-7. [Collections](https://github.com/hyomee/JAVA_EDU/tree/main/Collection)
+8. [Collections](https://github.com/hyomee/JAVA_EDU/tree/main/Collection)
    - Collection 객체 이해 , API 사용법 학습 
    - 학습 내용 : [Collections](https://github.com/hyomee/JAVA_EDU/blob/main/Collection/JAVA_Collection.pdf)
-
-8. [상속 Extend/Absctract/Implements](https://github.com/hyomee/JAVA_EDU/tree/main/ExtendsAndImplements)
-   - 상속 개념 학습, Extend/Absctract/Implements 학습
-   - 학습 내용 : [Extend/Absctract/Implements](https://github.com/hyomee/JAVA_EDU/blob/main/ExtendsAndImplements/JAVA_Extends.pdf)
    
 9. Inner Class/Interface
 10. Thread
