@@ -2,23 +2,23 @@ package com.hyomee.extend;
 
 public class Worker extends Adult {
   private String workerId;
+  void setWorkerId(String workerId) {
+    this.workerId = workerId;
+  }
+  String getWorkerId() {
+    return this.workerId;
+  }
+  void setHumanName(String name) {
+    super.setName(name);
+  }
+
   Worker() { }
   Worker(String name) {
     super(name);
     System.out.println("Worker OverLoading 생성자 호출");
   }
 
-  void setWorkerId(String workerId) {
-    this.workerId = workerId;
-  }
 
-  String getWorkerId() {
-    return this.workerId;
-  }
-
-  void setHumanName(String name) {
-    super.setName(name);
-  }
 
 
   void goToWork() {
