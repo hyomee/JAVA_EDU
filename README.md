@@ -18,7 +18,7 @@
    - if, switch. for, while, do..while 이해
    - 학습 내용 : [제어문](https://github.com/hyomee/JAVA_EDU/blob/main/Control/JAVA_제어.pdf)
 
-5. [Class & Object](https://github.com/hyomee/JAVA_EDU/tree/main/ClassObject)
+5. [Class & Object & Modifier](https://github.com/hyomee/JAVA_EDU/tree/main/ClassObject)
    - Class와 Object의 개념, OOP 이해 
    - 학습 내용 : [Class&Object](https://github.com/hyomee/JAVA_EDU/blob/main/ClassObject/JAVA_Class.pdf)
    
@@ -30,19 +30,17 @@
    - Collection 객체 이해 , API 사용법 학습 
    - 학습 내용 : [Collections](https://github.com/hyomee/JAVA_EDU/blob/main/Collection/JAVA_Collection.pdf)
 
-8. Class  
-9. Modifier
-10. Extend/Implements
-11. Absctract Class/Interface
-12. Inner Class/Interface
-13. Thread
-14. Exception
-15. Generic Extend
-16. [Lambda](https://github.com/hyomee/JAVA_EDU/tree/main/L)
+8. Extend/Implements
+9. Absctract Class/Interface
+10. Inner Class/Interface
+11. Thread
+12. Exception
+13. Generic Extend
+14. [Lambda](https://github.com/hyomee/JAVA_EDU/tree/main/L)
    - JAVA의 함수형 프로그램을 하기 위한 람다 이해
    - 학습 내용 : [Lambda](https://github.com/hyomee/JAVA_EDU/blob/main/L/JAVA_Lambda.pdf)
    
-17. Stream
-18. Annotation
-19. JAVA I/0
+15. Stream
+15. Annotation
+17. JAVA I/0
 
