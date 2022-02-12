@@ -1,6 +1,12 @@
 package com.hyomee.abstractclass;
 
 public class Worker extends Adult {
+
+  @Override
+  void drinking() {
+    System.out.println("직장인이 맥주를 마신다.");
+  };
+
   private String workerId;
 
   Worker() { }
@@ -33,9 +39,6 @@ public class Worker extends Adult {
 
 
 
-  @Override
-  void drinking() {
-    System.out.println("직장인이 맥주를 마신다.");
-  };
+
 
 }
