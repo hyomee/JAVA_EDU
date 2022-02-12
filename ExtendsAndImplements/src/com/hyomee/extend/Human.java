@@ -6,6 +6,10 @@ public class Human {
   float weight;
   float height;
 
-  void eat() {}
-  void sleep() {}
+  void eat() {
+    System.out.println("먹는다.");
+  }
+  void sleep() {
+    System.out.println("잔다.");
+  }
 }
