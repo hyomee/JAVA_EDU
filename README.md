@@ -30,10 +30,12 @@
    - Collection 객체 이해 , API 사용법 학습 
    - 학습 내용 : [Collections](https://github.com/hyomee/JAVA_EDU/blob/main/Collection/JAVA_Collection.pdf)
 
-8. Extend/Implements
-9. Absctract Class/Interface
-10. Inner Class/Interface
-11. Thread
+8. [상속 Extend/Absctract/Implements]()
+   - 상속 개념 학습, Extend/Absctract/Implements 학습
+   - 학습 내용 : [Collections](https://github.com/hyomee/JAVA_EDU/blob/main/Collection/JAVA_Collection.pdf)
+   
+9. Inner Class/Interface
+10. Thread
 12. Exception
 13. Generic Extend
 14. [Lambda](https://github.com/hyomee/JAVA_EDU/tree/main/L)
