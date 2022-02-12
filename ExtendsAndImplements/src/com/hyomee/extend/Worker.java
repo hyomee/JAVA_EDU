@@ -1,7 +1,6 @@
 package com.hyomee.extend;
 
 public class Worker extends Adult {
-
   private String workerId;
   Worker() { }
   Worker(String name) {
