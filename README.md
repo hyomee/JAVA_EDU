@@ -36,7 +36,7 @@
    
 9. [Inner Class/Interface](https://github.com/hyomee/JAVA_EDU/tree/main/InnerClass)
    - 이너클래스(Inner Class), 익명이너클레스(Anonymous Inner Class), 인터페이스 이너클래스(Interface Inner Class) 이해
-   - 학습 내용 : .
+   - 학습 내용 : [Inner Class](https://github.com/hyomee/JAVA_EDU/blob/main/InnerClass/JAVA_InnerClass.pdf)
 
 10. Generic Extend
 11. [Lambda](https://github.com/hyomee/JAVA_EDU/tree/main/L)
