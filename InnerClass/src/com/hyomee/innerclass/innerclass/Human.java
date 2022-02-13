@@ -1,7 +1,7 @@
 package com.hyomee.innerclass.innerclass;
 
 public class Human {
-  String name;
+  String name ;
   String school;
 
   void eat() {
