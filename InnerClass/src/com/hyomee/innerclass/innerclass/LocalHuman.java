@@ -11,15 +11,15 @@ public class LocalHuman {
   void student() {
     class Student {
       String studentId = "SB-000-0000" ;
-      Human human = new Human();
+      LocalHuman localHuman = new LocalHuman();
 
       Student(String studentId, String school) {
         this.studentId = studentId;
-        human.school = school;
+        localHuman.school = school;
       }
 
       void viewStudent() {
-        System.out.println("학교 : " + human.school);
+        System.out.println("학교 : " + localHuman.school);
         System.out.println("학번 : " + this.studentId);
       }
       void setStudentId(String studentId) {
@@ -28,7 +28,7 @@ public class LocalHuman {
     }
 
     Student student = new Student("SB-000-0001", "한국학교");
-    student.human.eat();
+    student.localHuman.eat();
     student.viewStudent();
     student.setStudentId("SB-000-0002");
     student.viewStudent();
