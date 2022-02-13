@@ -18,10 +18,6 @@ public class LocalHuman {
         human.school = school;
       }
 
-      void eat() {
-        human.eat();
-      }
-
       void viewStudent() {
         System.out.println("학교 : " + human.school);
         System.out.println("학번 : " + this.studentId);
