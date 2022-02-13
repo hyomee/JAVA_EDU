@@ -8,5 +8,4 @@ public class InnerClassMain {
     student.eat();
     student.viewStudent();
   }
-
 }
