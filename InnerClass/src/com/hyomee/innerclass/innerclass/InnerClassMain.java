@@ -17,5 +17,9 @@ public class InnerClassMain {
             new StaticHuman.StaticStudent("SB-000-0001", "한국학교");
     staticStudent.eat();
     staticStudent.viewStudent();
+
+    System.out.println(" * Local Inner Class * ");
+    LocalHuman localHuman = new LocalHuman();
+    localHuman.student();
   }
 }
