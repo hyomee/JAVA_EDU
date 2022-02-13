@@ -26,7 +26,4 @@ public class InnerfaceHuman {
       System.out.println("학번 : " + this.studentId);
     }
   }
-
-
-
 }
