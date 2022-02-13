@@ -1,0 +1,1 @@
+## 인터페이스 이너 클래스(Interface Inner Class)
