@@ -14,6 +14,8 @@ public class Human {
     Student(String studentId, String school) {
       this.studentId = studentId;
       Human.this.school = school;
+      CollegeStudent collegeStudent = new CollegeStudent();
+      collegeStudent.drinking();
     }
 
     void eat() {
@@ -26,5 +28,11 @@ public class Human {
       System.out.println("학교 : " + Human.this.school);
       System.out.println("학번 : " + this.studentId);
     }
+  }
+
+  class CollegeStudent {
+    void drinking() {
+      System.out.println("술을 마신다.");
+    };
   }
 }
