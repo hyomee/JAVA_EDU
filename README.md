@@ -44,8 +44,8 @@
    
 12. Stream
 13. Exception
-14. Generic Extend
-15. Thread
-16. Annotation
+14. Annotation
+15. Generic Extend
+16. Thread
 17. JAVA I/0
 
