@@ -38,14 +38,14 @@
    - 이너클래스(Inner Class), 익명이너클레스(Anonymous Inner Class), 인터페이스 이너클래스(Interface Inner Class) 이해
    - 학습 내용 : [Inner Class](https://github.com/hyomee/JAVA_EDU/blob/main/InnerClass/JAVA_InnerClass.pdf)
 
-10. Generic Extend
 11. [Lambda](https://github.com/hyomee/JAVA_EDU/tree/main/L)
    - JAVA의 함수형 프로그램을 하기 위한 람다 이해
    - 학습 내용 : [Lambda](https://github.com/hyomee/JAVA_EDU/blob/main/L/JAVA_Lambda.pdf)
    
 12. Stream
-13. Thread
-14. Exception
-15. Annotation
-16. JAVA I/0
+13. Generic Extend
+14. Thread
+15. Exception
+16. Annotation
+17. JAVA I/0
 
