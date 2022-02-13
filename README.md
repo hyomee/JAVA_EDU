@@ -34,7 +34,10 @@
    - Collection 객체 이해 , API 사용법 학습 
    - 학습 내용 : [Collections](https://github.com/hyomee/JAVA_EDU/blob/main/Collection/JAVA_Collection.pdf)
    
-9. Inner Class/Interface
+9. [Inner Class/Interface](https://github.com/hyomee/JAVA_EDU/tree/main/InnerClass)
+   - 이너클래스(Inner Class), 익명이너클레스(Anonymous Inner Class), 인터페이스 이너클래스(Interface Inner Class) 이해
+   - 학습 내용 :
+
 10. Generic Extend
 11. [Lambda](https://github.com/hyomee/JAVA_EDU/tree/main/L)
    - JAVA의 함수형 프로그램을 하기 위한 람다 이해
