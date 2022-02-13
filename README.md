@@ -43,6 +43,8 @@
    - 학습 내용 : [Lambda](https://github.com/hyomee/JAVA_EDU/blob/main/L/JAVA_Lambda.pdf)
    
 12. Stream
+   - Stream 이해
+
 13. Exception
 14. Annotation
 15. Generic Extend
