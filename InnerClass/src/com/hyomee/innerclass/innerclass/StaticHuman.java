@@ -15,6 +15,8 @@ public class StaticHuman {
       this.studentId = studentId;
       // 오류 : StaticHuman.this.name = "홍길동";
       StaticHuman.school = school;
+      CollegeStudent collegeStudent = new CollegeStudent();
+      collegeStudent.drinking();;
     }
 
     void eat() {
@@ -27,5 +29,11 @@ public class StaticHuman {
       System.out.println("학교 : " + StaticHuman.school);
       System.out.println("학번 : " + this.studentId);
     }
+  }
+
+  static class CollegeStudent {
+    void drinking() {
+      System.out.println("술을 마신다.");
+    };
   }
 }
