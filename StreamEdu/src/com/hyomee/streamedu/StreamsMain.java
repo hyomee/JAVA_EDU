@@ -22,5 +22,8 @@ public class StreamsMain {
     streamService.subjectScoreFilter(DataCreateService.createSubjectList(), 80);
     streamService.subjectScoreFilterTwo(DataCreateService.createSubjectList(), 80, "USER_04");
     streamService.subjectScoreFilterTwo(DataCreateService.createSubjectList(), 99, "USER_01`");
+
+    streamService.ListConcat(DataCreateService.createSchoolDTOtList(),DataCreateService.createSubjectList() );
+    streamService.ListConcatStream(DataCreateService.createSchoolDTOtList(),DataCreateService.createSubjectList() );
   }
 }
