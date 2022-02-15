@@ -6,8 +6,6 @@ public class SchoolSubjectDTO {
   private String schoolId;
   private String schoolName;
   private String userId;
-
-
   private String userNm;
   private String subjectId;
   private String subjectName;

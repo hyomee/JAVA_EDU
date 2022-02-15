@@ -4,13 +4,13 @@ public class StudentDTO {
   private int schoolNo;
   private String userId;
   private String userNm;
-  private String age;
+  private int age;
   private String zipCode;
   private String address;
 
   public StudentDTO() {};
 
-  public StudentDTO(int schoolNo, String userId, String userNm, String age, String zipCode, String address) {
+  public StudentDTO(int schoolNo, String userId, String userNm, int age, String zipCode, String address) {
     this.schoolNo = schoolNo;
     this.userId = userId;
     this.userNm = userNm;
@@ -35,11 +35,11 @@ public class StudentDTO {
     this.userNm = userNm;
   }
 
-  public String getAge() {
+  public int getAge() {
     return age;
   }
 
-  public void setAge(String age) {
+  public void setAge(int age) {
     this.age = age;
   }
 
