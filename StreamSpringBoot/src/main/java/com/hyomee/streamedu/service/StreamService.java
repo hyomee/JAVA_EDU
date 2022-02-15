@@ -80,6 +80,31 @@ public class StreamService {
     Stream<Object> subjectDTOStream = DataCreateService.createSubjectDTOStream();
     subjectDTOStream.forEach(subject -> System.out.println(subject.toString()));
 
+    // Array Stream
+    System.out.println("===== Stream 변환 =======");
+    String[] strings = new String[]{"c#", "java", "java script"};
+
+    Stream<String> stringStream = Arrays.stream(strings);
+    stringStream.forEach(s -> System.out.println(s));
+    // 범위 지정
+    Stream<String> stringStreamOfElement = Arrays.stream(strings, 1,3) ;
+    stringStreamOfElement.forEach(s -> System.out.println(s));
+
+    // Collection Stream
+    List<String> stringList = new ArrayList<>();
+    stringList.add("c");
+    stringList.add("java");
+    stringList.add("java script");
+    stringList.add("c++");
+    stringList.add("c#");
+    // Stream 변환
+    System.out.println("===== Stream 변환 ======= :: " );
+    Stream<String> strStream = stringList.stream();
+    strStream.forEach(s -> System.out.println(s));
+    System.out.println("===== parallelStream 변환 =======");
+    Stream<String> strParallelStream = stringList.parallelStream();
+    strParallelStream.forEach(s -> System.out.println(s));
+
 
   }
 
