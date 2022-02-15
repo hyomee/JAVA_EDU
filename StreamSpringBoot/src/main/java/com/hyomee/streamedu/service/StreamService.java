@@ -52,6 +52,20 @@ public class StreamService {
 
     // 빌더를 이욯한 Stream 생성
     System.out.println("* 빌더를 이욯한 Stream 생성 * ");
+    Stream<Object> streamObject = Stream.builder()
+            .add("한국")
+            .add("미국")
+            .add("호주")
+            .build();
+    streamObject.forEach(object -> System.out.println(object));
+
+    Stream<String> streamString = Stream.<String>builder()
+            .add("한국")
+            .add("미국")
+            .add("호주")
+            .build();
+    streamString.forEach(string -> System.out.println(string));
+
     Stream<Object> subjectDTOStream = DataCreateService.createSubjectDTOStream();
     subjectDTOStream.forEach(subject -> System.out.println(subject.toString()));
   }

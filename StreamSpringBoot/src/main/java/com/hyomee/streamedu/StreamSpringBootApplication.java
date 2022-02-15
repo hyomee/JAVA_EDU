@@ -15,8 +15,9 @@ public class StreamSpringBootApplication {
 
     SpringApplication.run(StreamSpringBootApplication.class, args);
 
-    //StreamService streamService = new StreamService();
-    //streamService.subjectScoreFilter(DataCreateService.createSubjectList(), 60);
+    StreamService streamService = new StreamService();
+    streamService.createStream();
+    streamService.subjectScoreFilter(DataCreateService.createSubjectList(), 60);
 
     MapStructService mapStructService = new MapStructService();
     mapStructService.toSchoolSubject();
