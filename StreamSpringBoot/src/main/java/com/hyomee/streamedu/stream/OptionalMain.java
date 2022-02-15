@@ -24,8 +24,6 @@ public class OptionalMain {
     Optional<String> memberNo = member.map(Member::getMemberNo);
     result = memberNo.orElse("번호 없음");
 
-
-
     System.out.println( "optional member ::" + result);
     result = memberNo.orElseGet(()-> new String());
     System.out.println( "optional null String :: " + result);
