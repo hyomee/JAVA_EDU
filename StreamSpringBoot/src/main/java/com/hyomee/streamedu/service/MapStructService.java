@@ -42,6 +42,7 @@ public class MapStructService {
             .map(subjectDTO1 -> mapStructMapper.sourceToDestination(subjectDTO1))
             .map(schoolSubjectDTO1 -> concatSchool(schoolDTOList, schoolSubjectDTO1))
             .map(schoolSubjectDTO2 -> concatStudentCustNm(studentDTOListList, schoolSubjectDTO2.get()))
+            .filter(schoolSubjectDTO3 -> schoolSubjectDTO3.get().getSubjectId().equals("SUBJECT_01") && schoolSubjectDTO3.get().getUserNm().length() > 0)
             .collect(Collectors.toList());
 
     subjectDTOr.stream().forEach(s -> System.out.println(s.toString()));
@@ -71,7 +72,7 @@ public class MapStructService {
    */
   private Optional<SchoolSubjectDTO> concatStudentCustNm (List<StudentDTO>  studentDTOList, SchoolSubjectDTO schoolSubjectDTO1) {
     try {
-      // school -> schoolSubjectDTO1.getSchoolNo() == 6 오류 유발
+      // school -> schoolSubjectDTO1.getSchoolNo() == 6 오류 유발, schoolSubjectDTO1.getSchoolNo() == studentDTO.getSchoolNo()
       return Optional.of(studentDTOList.stream()
               .filter(studentDTO -> schoolSubjectDTO1.getSchoolNo() == studentDTO.getSchoolNo() &&
                                     schoolSubjectDTO1.getUserId().equals(studentDTO.getUserId()))

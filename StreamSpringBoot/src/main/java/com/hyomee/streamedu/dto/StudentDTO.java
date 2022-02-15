@@ -1,5 +1,7 @@
 package com.hyomee.streamedu.dto;
 
+import java.util.Objects;
+
 public class StudentDTO {
   private int schoolNo;
   private String userId;
@@ -13,8 +15,8 @@ public class StudentDTO {
   public StudentDTO(int schoolNo, String userId, String userNm, int age, String zipCode, String address) {
     this.schoolNo = schoolNo;
     this.userId = userId;
-    this.userNm = userNm;
-    this.userNm = userNm;
+    this.userNm = Objects.nonNull(userNm) ?  userNm : ""   ;
+    this.age = age;
     this.zipCode = zipCode;
     this.address = address;
   }
@@ -32,7 +34,7 @@ public class StudentDTO {
   }
 
   public void setUserNm(String userNm) {
-    this.userNm = userNm;
+    this.userNm = Objects.isNull(userNm) ? "" : userNm;
   }
 
   public int getAge() {

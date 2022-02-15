@@ -1,5 +1,7 @@
 package com.hyomee.streamedu.dto;
 
+import java.util.Objects;
+
 public class SchoolDTO {
   private int schoolNo;
   private String schoolId;
@@ -12,7 +14,7 @@ public class SchoolDTO {
 
   public SchoolDTO(int schoolNo, String schoolId, String schoolName, String schoolTelNo, String schoolZipCode, String schoolAddress) {
     this.schoolNo = schoolNo;
-    this.schoolId = schoolId;
+    this.schoolId = Objects.isNull(schoolId) ? schoolId : "";
     this.schoolName = schoolName;
     this.schoolTelNo = schoolTelNo;
     this.schoolZipCode = schoolZipCode;

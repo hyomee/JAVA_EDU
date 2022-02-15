@@ -40,16 +40,16 @@ public class DataCreateService {
     List<SubjectDTO> subjectlDTOList = new LinkedList<SubjectDTO>();
     subjectlDTOList.add(new SubjectDTO(1,"USER_01", "SUBJECT_01", "국어", 80));
     subjectlDTOList.add(new SubjectDTO(1,"USER_01", "SUBJECT_02", "영어", 90));
-    subjectlDTOList.add(new SubjectDTO(1,"USER_01", "SUBJECT_02", "수학", 85));
-    subjectlDTOList.add(new SubjectDTO(2,"USER_02", "SUBJECT_02", "국어", 70));
+    subjectlDTOList.add(new SubjectDTO(1,"USER_01", "SUBJECT_03", "수학", 85));
+    subjectlDTOList.add(new SubjectDTO(2,"USER_02", "SUBJECT_01", "국어", 70));
     subjectlDTOList.add(new SubjectDTO(2,"USER_02", "SUBJECT_02", "영어", 80));
-    subjectlDTOList.add(new SubjectDTO(2,"USER_02", "SUBJECT_02", "수학", 75));
-    subjectlDTOList.add(new SubjectDTO(1,"USER_03", "SUBJECT_02", "국어", 95));
+    subjectlDTOList.add(new SubjectDTO(2,"USER_02", "SUBJECT_03", "수학", 75));
+    subjectlDTOList.add(new SubjectDTO(1,"USER_03", "SUBJECT_01", "국어", 95));
     subjectlDTOList.add(new SubjectDTO(1,"USER_03", "SUBJECT_02", "영어", 65));
-    subjectlDTOList.add(new SubjectDTO(1,"USER_03", "SUBJECT_02", "수학", 75));
-    subjectlDTOList.add(new SubjectDTO(2,"USER_04", "SUBJECT_02", "국어", 95));
+    subjectlDTOList.add(new SubjectDTO(1,"USER_03", "SUBJECT_03", "수학", 75));
+    subjectlDTOList.add(new SubjectDTO(2,"USER_04", "SUBJECT_01", "국어", 95));
     subjectlDTOList.add(new SubjectDTO(2,"USER_04", "SUBJECT_02", "영어", 85));
-    subjectlDTOList.add(new SubjectDTO(2,"USER_05", "SUBJECT_02", "수학", 75));
+    subjectlDTOList.add(new SubjectDTO(2,"USER_05", "SUBJECT_03", "수학", 75));
     return subjectlDTOList;
   }
 
@@ -75,11 +75,11 @@ public class DataCreateService {
   public static List<StudentDTO> createStudentDTOList() {
     return Stream.of(
             new StudentDTO(1,"USER_01", "홍길동", 18, "400-100", "제주 제주시 성산동"),
-            new StudentDTO(2,"USER_02", "김한국", 18, "200-200", "서울 송파구 방이동"),
-            new StudentDTO(1,"USER_03", null, 18, "500-500", "경상 경산군 경산읍"),
-            new StudentDTO(2,"USER_04", "박이사", 18, "200-200", "서울 송파구 방이동"),
-            new StudentDTO(2,"USER_05", "최이사", 18, "200-200", "서울 송파구 방이동"),
-            new StudentDTO(2,"USER_05", "조이사", 18, "300-300", "강원 춘천시 춘천동")
+            new StudentDTO(2,"USER_02", "김한국", 17, "200-200", "서울 송파구 방이동"),
+            new StudentDTO(1,"USER_03", null, 20, "500-500", "경상 경산군 경산읍"),
+            new StudentDTO(2,"USER_04", "박이사", 16, "200-200", "서울 송파구 방이동"),
+            new StudentDTO(2,"USER_05", "최이사", 19, "200-200", "서울 송파구 방이동"),
+            new StudentDTO(2,"USER_05", "조이사", 15, "300-300", "강원 춘천시 춘천동")
         ).collect(Collectors.toList());
   }
 
