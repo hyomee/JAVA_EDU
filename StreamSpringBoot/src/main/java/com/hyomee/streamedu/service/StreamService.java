@@ -66,8 +66,21 @@ public class StreamService {
             .build();
     streamString.forEach(string -> System.out.println(string));
 
+    Stream<String> streamGenerate = Stream.generate(()->"Echo")
+            .limit(5);
+    streamGenerate.forEach(o->System.out.println(o.getClass() + "::"  + o));
+
+    // generate을 이용한 무한 Stream 생성
+    // 난수 (random number) 생성
+    Stream<Double> streamGenerateRandoms = Stream.generate(Math::random)
+            .limit(5);
+    streamGenerateRandoms.forEach(o->System.out.println(o.getClass() + "::"  + o));
+
+    // Data 객체를 이용한 Stream 생성
     Stream<Object> subjectDTOStream = DataCreateService.createSubjectDTOStream();
     subjectDTOStream.forEach(subject -> System.out.println(subject.toString()));
+
+
   }
 
   // 기존 장보를 가지고 Stream 생성

@@ -2,7 +2,6 @@ package com.hyomee.streamedu.dto;
 
 public class SubjectDTO {
 
-
   private int schoolNo;
   private String userId;
   private String subjectId;
@@ -11,16 +10,19 @@ public class SubjectDTO {
 
   public SubjectDTO() {};
 
-
-  public SubjectDTO(String userId, String subjectId, String subjectName, int score) {
+  public SubjectDTO(int schoolNo,
+                    String userId,
+                    String subjectId,
+                    String subjectName,
+                    int score) {
+    this.schoolNo = schoolNo;
     this.userId = userId;
     this.subjectId = subjectId;
     this.subjectName = subjectName;
     this.score = score;
   }
 
-  public SubjectDTO(int schoolNo, String userId, String subjectId, String subjectName, int score) {
-    this.schoolNo = schoolNo;
+  public SubjectDTO(String userId, String subjectId, String subjectName, int score) {
     this.userId = userId;
     this.subjectId = subjectId;
     this.subjectName = subjectName;
