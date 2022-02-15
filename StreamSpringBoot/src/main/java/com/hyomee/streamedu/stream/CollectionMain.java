@@ -24,7 +24,8 @@ public class CollectionMain {
     productNmStr = productList.stream().map(ProductInfo::getProductNm).collect(Collectors.joining(",","[","]"));
     System.out.println( "productNmStr ::" + productNmStr);
 
-    Double priceAvarag = productList.stream().filter(productInfo -> productInfo.getProductType().equals("P")).collect(Collectors.averagingInt(ProductInfo::getPrice));
+    Double priceAvarag = productList.stream().filter(productInfo -> productInfo.getProductType().equals("P"))
+            .collect(Collectors.averagingInt(ProductInfo::getPrice));
     System.out.println( "priceAvarag ::" + priceAvarag);
 
     Double allPriceAvarag = productList.stream().collect(Collectors.averagingInt(ProductInfo::getPrice));
