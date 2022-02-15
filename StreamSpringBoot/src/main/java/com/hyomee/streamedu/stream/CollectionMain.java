@@ -30,7 +30,8 @@ public class CollectionMain {
     Double allPriceAvarag = productList.stream().collect(Collectors.averagingInt(ProductInfo::getPrice));
     System.out.println( "allPriceAvarag ::" + allPriceAvarag);
 
-    int sumP = productList.stream().filter(productInfo -> productInfo.getProductType().equals("P")).collect(Collectors.summingInt(ProductInfo::getPrice));
+    int sumP = productList.stream().filter(productInfo -> productInfo.getProductType().equals("P"))
+            .collect(Collectors.summingInt(ProductInfo::getPrice));
     System.out.println( "sumP ::" + sumP);
 
     int sum = productList.stream().collect(Collectors.summingInt(ProductInfo::getPrice));
@@ -38,7 +39,8 @@ public class CollectionMain {
 
 
 
-    IntSummaryStatistics sumavgP = productList.stream().filter(productInfo -> productInfo.getProductType().equals("P")).collect(Collectors.summarizingInt(ProductInfo::getPrice));
+    IntSummaryStatistics sumavgP = productList.stream().filter(productInfo -> productInfo.getProductType().equals("P"))
+            .collect(Collectors.summarizingInt(ProductInfo::getPrice));
     System.out.println( "sumavgP ::" + sumavgP);
 
     IntSummaryStatistics sumavg = productList.stream().collect(Collectors.summarizingInt(ProductInfo::getPrice));
