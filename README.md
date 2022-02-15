@@ -42,7 +42,10 @@
    - JAVA의 함수형 프로그램을 하기 위한 람다 이해
    - 학습 내용 : [Lambda](https://github.com/hyomee/JAVA_EDU/blob/main/L/JAVA_Lambda.pdf)
 
-11. Stream
+11. [Stream](https://github.com/hyomee/JAVA_EDU/tree/main/StreamSpringBoot)
+   - Stream 이해, Stream 기본, Stream api 이래
+   - 학습 내용 : [Stream](https://github.com/hyomee/JAVA_EDU/blob/main/StreamSpringBoot/JAVA_Stream.pdf)
+
 12. Exception
 13. Annotation
 14. Generic Extend
