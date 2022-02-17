@@ -46,9 +46,12 @@
    - Stream 이해, Stream 기본, Stream api 이래
    - 학습 내용 : [Stream](https://github.com/hyomee/JAVA_EDU/blob/main/StreamSpringBoot/JAVA_Stream.pdf)
 
-12. Exception
-13. Annotation
-14. Generic Extend
-15. Thread
-16. JAVA I/0
+12. [Exception](https://github.com/hyomee/JAVA_EDU/tree/main/Exception)
+   - Exception, RuntimeException의 이해 및 사용자 정의 Exception 작성 
+   - 학습내용 : [Exception](https://github.com/hyomee/JAVA_EDU/blob/main/Exception/JAVA_Exception.pdf)
+
+14. Annotation
+15. Generic Extend
+16. Thread
+17. JAVA I/0
 
