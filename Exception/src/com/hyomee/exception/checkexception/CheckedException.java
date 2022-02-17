@@ -63,4 +63,20 @@ public class CheckedException {
     }
 
   }
+
+  void userEx()   {
+    InputStreamReader is = new InputStreamReader(System.in);
+    try {
+      is.read();
+    } catch (IOException e) {
+      e.printStackTrace();
+    }
+
+    try {
+      FileInputStream fis = new FileInputStream("readme.md");
+    } catch (FileNotFoundException e) {
+      e.printStackTrace();
+    }
+
+  }
 }

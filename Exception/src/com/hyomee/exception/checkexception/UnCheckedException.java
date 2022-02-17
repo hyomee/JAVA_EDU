@@ -21,4 +21,12 @@ public class UnCheckedException {
     int[] arrNum = {1, 2, 3};
     System.out.println(arrNum[3]);
   }
+
+  public void userException() {
+    int a = 3;
+    int[] arrNum = {1, 2, 3};
+    if (a >=3) {
+      new MyRuntimeException("오류 입니다.");
+    }
+  }
 }
