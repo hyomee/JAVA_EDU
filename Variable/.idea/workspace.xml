@@ -43,7 +43,7 @@
       <recent name="D:\works\JAVA_EDU\Variable" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.StringOperation">
+  <component name="RunManager" selected="Application.ArrayRead">
     <configuration name="ArrayRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javavariable.array.ArrayRead" />
       <module name="Variable" />
@@ -109,15 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="애플리케이션.StringOperation" />
-        <item itemvalue="애플리케이션.StringSharing" />
-        <item itemvalue="애플리케이션.StringCopy" />
-        <item itemvalue="애플리케이션.Narray" />
-        <item itemvalue="애플리케이션.ArrayRead" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
