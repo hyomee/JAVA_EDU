@@ -1,7 +1,6 @@
-package com.hyomee.genericMethod;
+package com.hyomee.generic.genericMethod;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 public class GenericMethodMain {

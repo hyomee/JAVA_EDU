@@ -1,4 +1,4 @@
-package com.hyomee.genericMethod;
+package com.hyomee.generic.genericMethod;
 
 import java.util.HashMap;
 import java.util.Map;
