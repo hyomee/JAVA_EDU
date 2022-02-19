@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8197556e-ec47-43d7-bdf1-361488dee0fc" name="변경" comment="변수, 기본자료형, 참조자료형">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8197556e-ec47-43d7-bdf1-361488dee0fc" name="변경" comment="변수, 기본자료형, 참조자료형" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,6 +129,7 @@
       <updated>1643565584874</updated>
       <workItem from="1645190971531" duration="6349000" />
       <workItem from="1645274541699" duration="393000" />
+      <workItem from="1645275589418" duration="210000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1643566856192</created>
@@ -167,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645197267380</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="변수, 기본자료형, 참조자료형">
+      <created>1645275710117</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645275710117</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
