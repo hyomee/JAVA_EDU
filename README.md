@@ -50,7 +50,8 @@
    - Exception, RuntimeException의 이해 및 사용자 정의 Exception 작성 
    - 학습내용 : [Exception](https://github.com/hyomee/JAVA_EDU/blob/main/Exception/JAVA_Exception.pdf)
 
-14. Annotation
+14. [Annotation](https://github.com/hyomee/JAVA_EDU/blob/main/Annotation/JAVA_Annotation.pdf)
+
 15. Thread
 16. JAVA I/0
 
