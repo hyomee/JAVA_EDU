@@ -26,8 +26,8 @@
    - 상속 개념 학습, Extend/Absctract/Implements 학습
    - 학습 내용 : [Extend/Absctract/Implements](https://github.com/hyomee/JAVA_EDU/blob/main/ExtendsAndImplements/JAVA_Extends.pdf)
    
-7. [Generic Method](https://github.com/hyomee/JAVA_EDU/tree/main/genericMethod)
-   - Generic의 개념, Generic Method 이해 
+7. [Generic](https://github.com/hyomee/JAVA_EDU/tree/main/genericMethod)
+   - Generic의 개념, Generic Class , Generic Method 이해 
    - 학습 내용 : [Generic Method](https://github.com/hyomee/JAVA_EDU/blob/main/genericMethod/JAVA_Generic.pdf)
    
 8. [Collections](https://github.com/hyomee/JAVA_EDU/tree/main/Collection)
@@ -51,7 +51,6 @@
    - 학습내용 : [Exception](https://github.com/hyomee/JAVA_EDU/blob/main/Exception/JAVA_Exception.pdf)
 
 14. Annotation
-15. Generic Extend
-16. Thread
-17. JAVA I/0
+15. Thread
+16. JAVA I/0
 
