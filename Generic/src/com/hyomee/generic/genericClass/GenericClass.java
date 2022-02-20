@@ -1,7 +1,5 @@
 package com.hyomee.generic.genericClass;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class GenericClass<T, V> {
   private T name;

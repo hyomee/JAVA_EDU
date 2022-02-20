@@ -15,17 +15,16 @@ public class GenericClassMain {
               + " (부가세 : " + String.format("%,.1f",car.getPrice().floatValue() * 0.1) +")");
     }
 
-    cars.clear();
 
-    List<GenericClass<String, Integer>> fruit = new ArrayList<>();
-    cars.add((new GenericClass<>("사과", 2000)));
-    cars.add((new GenericClass<>("복숭아", 4000)));
+    List<GenericClass<String, Float>> fruits = new ArrayList<>();
+    fruits.add((new GenericClass<>("사과", 256.5f)));
+    fruits.add((new GenericClass<>("복숭아", 345.6f)));
 
-    for(GenericClass<String, Integer> car: cars) {
-      System.out.println(String.format("%s \t가격 : %,d ( 부가세 : %,.1f )"
-              , car.getName()
-              , car.getPrice()
-              , car.getPrice().floatValue() * 0.1 ));
+    for(GenericClass<String, Float> fruit: fruits) {
+      System.out.println(String.format("%s \t가격 : %,.1f ( 부가세 : %,.1f )"
+              , fruit.getName()
+              , fruit.getPrice()
+              , fruit.getPrice() * 0.1 ));
 
     }
    }
