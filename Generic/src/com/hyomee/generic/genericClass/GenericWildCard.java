@@ -22,5 +22,4 @@ public class GenericWildCard {
     }
     return list;
   }
-  
 }
