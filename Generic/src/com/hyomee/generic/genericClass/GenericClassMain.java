@@ -48,6 +48,7 @@ public class GenericClassMain {
     integerList.add(20);
     genericWildCard.addList(integerList);
     genericWildCard.printList(integerList);
+
    }
 
 
