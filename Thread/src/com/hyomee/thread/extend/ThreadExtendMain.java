@@ -1,12 +1,16 @@
 package com.hyomee.thread.extend;
 
+import java.sql.Timestamp;
+
 public class ThreadExtendMain {
   public static void main(String... args) {
-    System.out.println("Main Start .... ");
+    Thread currentThread = Thread.currentThread();
+    ThreadView( currentThread, ThreadExtendMain.class, "Start");
+
     // Thread 를 상속 받은 객체
     MythreadA myThreadA = new MythreadA();
     myThreadA.start();
-    System.out.println("MyThreadA id " + myThreadA.getId());
+
 
     // Runable을 상속 받은 객체
     MyThreadRunnable myThreadRunnable = new MyThreadRunnable();
@@ -16,23 +20,48 @@ public class ThreadExtendMain {
     Runnable myRunnable = new MyThreadRunnable();
     Thread myThread = new Thread(myRunnable);
     myThread.start();
-    System.out.println("myThread id " + myThread.getId());
+
 
     // innerClass 사용
     Thread myInnerThread = new Thread(new Runnable() {
       @Override
       public void run() {
-        System.out.println("myInnerThread Start : " + Thread.currentThread().getId());
+        ThreadView( Thread.currentThread(), this.getClass() , "Start");
         try {
-          Thread.sleep(1000);
+          Thread.sleep(5000);
         } catch (InterruptedException e) {
           e.printStackTrace();
+          ThreadView( Thread.currentThread(), this.getClass() , "Kill 1");
+        } catch (IllegalThreadStateException e) {
+          e.printStackTrace();
+          ThreadView( Thread.currentThread(), this.getClass() , "Kill 2");
         }
-        System.out.println("myInnerThread End : "+ Thread.currentThread().getId());
+        ThreadView( Thread.currentThread(), this.getClass() , "End");
+
       }
     });
+    myInnerThread.setPriority(10);
+    myInnerThread.setDaemon(true);
     myInnerThread.start();
-    System.out.println("myInnerThread id " + myInnerThread.getId());
-    System.out.println("Main End .... ");
+    ;
+
+    System.out.println("실행 중인 Thread 갯수 : " + Thread.activeCount());
+
+    ThreadView( currentThread, ThreadExtendMain.class, "end ........");
+  }
+
+  static void ThreadView( Thread t, Class obj, String startEnd) {
+    Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+    System.out.println(String.format("[%s][%s][%s] %s\t" +
+                    "Thread Name\t : %S\n" +
+                    "-- Thread Id\t : %S\n" +
+                    "-- Thread Priority\t : %S\n",
+            timestamp.toString(),
+            obj.getName().toString(),
+            t.isDaemon()?"데몬":"일반",
+            startEnd,
+            t.getName(),
+            t.getId(),
+            t.getPriority()));
   }
 }

@@ -1,14 +1,19 @@
 package com.hyomee.thread.extend;
 
+
+
 public class MythreadA extends Thread{
   @Override
   public void run() {
-    System.out.println("MythreadA Start : " + currentThread().getId());
+
+    ThreadExtendMain.ThreadView( Thread.currentThread(), this.getClass() , "Start");
+
     try {
-      Thread.sleep(1000);
+      Thread.sleep(3000);
     } catch (InterruptedException e) {
       e.printStackTrace();
     }
-    System.out.println("MythreadA End : "+ currentThread().getId());
+
+    ThreadExtendMain.ThreadView( Thread.currentThread(), this.getClass() , "end");
   }
 }
