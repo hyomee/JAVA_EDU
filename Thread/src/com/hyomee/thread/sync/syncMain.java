@@ -57,6 +57,7 @@ public class syncMain {
 
     MyThread myB = new MyThread(syncTest);
     myB.start();
-    System.out.println(myA.currentThread().getName() + ".." + myA.getState());
+    System.out.println(myA.currentThread().getName()
+            + ".." + myA.getState());
   }
 }
