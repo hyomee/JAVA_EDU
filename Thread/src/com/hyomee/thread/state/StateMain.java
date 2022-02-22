@@ -46,7 +46,5 @@ public class StateMain {
     }catch(InterruptedException iException){
       iException.printStackTrace();
     }
-
   }
-
 }
