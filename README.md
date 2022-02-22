@@ -52,6 +52,9 @@
 
 14. [Annotation](https://github.com/hyomee/JAVA_EDU/blob/main/Annotation/JAVA_Annotation.pdf)
 
-15. Thread
-16. JAVA I/0
+15. [Thread](https://github.com/hyomee/JAVA_EDU/tree/main/Thread)
+   - Thread 개념, Thread 생성 및 상태 이해
+   - 학습내용 [Thread](https://github.com/hyomee/JAVA_EDU/blob/main/Thread/JAVA_Thread.pdf)
+
+17. JAVA I/0
 
