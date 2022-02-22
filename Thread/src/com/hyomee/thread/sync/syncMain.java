@@ -45,7 +45,8 @@ class MyThread extends Thread {
   @Override
   public void run() {
     this.syncTest.add();
-    System.out.println(Thread.currentThread().getName() + ".." + this.syncTest.num);
+    System.out.println(Thread.currentThread().getName()
+            + ".." + this.syncTest.num);
   }
 }
 public class syncMain {
