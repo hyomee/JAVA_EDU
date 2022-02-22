@@ -18,7 +18,6 @@ class BasicThread implements Runnable {
 }
 
 public class StateMain {
-
   public static void main(String... args) {
     // BasicThread 생성
     Thread threadInstance=new Thread(new BasicThread());
