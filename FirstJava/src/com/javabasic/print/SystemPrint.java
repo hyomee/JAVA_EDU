@@ -9,8 +9,8 @@ public class SystemPrint {
         System.out.print("안녕");
         System.out.print("자바");
         System.out.print("다음행 출력\n");
-        System.out.print(2.1);
-        System.out.printf("%d", "안녕");
+        System.out.print("2.1");
+        System.out.printf("%d", "안녕");  // 안녕자바다음행 출력
     }
 }
 
