@@ -1,0 +1,6 @@
+절대 경로   : d:\works\readme.txt
+폴더 여부   : false
+파일 여부   : true
+현재 이름   : readme.txt
+부모 이름   : d:\works
+현재 path   : d:\works\readme.txt신규 파일 생성
