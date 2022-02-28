@@ -46,7 +46,7 @@ public class ObjectString {
 
   /**
    * 문자열 Object의 값이 있는지 없는지 비교
-   * Method : String.length()
+   * Method : String.isEmpty()
    */
   static void stringisEmpty(String str) {
     String msg = "";
@@ -108,6 +108,7 @@ public class ObjectString {
    *   - Object : 값을 비교할 대상 Object
    */
   static void stringEqualstring(String sourceString) {
+    String str01 = new String("JAVA C");
     String targetString = sourceString;
     if (targetString.equals(sourceString)) {
       System.out.println("값이 같음");
@@ -116,7 +117,7 @@ public class ObjectString {
 
   /**
    * 대소문자 구분 없이 문자열의 실제 내용 비교
-   * Method : String.equals(Object anObject)
+   * Method : String.equalsIgnoreCase(Object anObject)
    *   - Object : 값을 비교할 대상 Object
    */
   static void stringEqualIgnoreCaseString(String sourceString) {
@@ -143,8 +144,8 @@ public class ObjectString {
   }
 
   /**
-   * 해당 문자열과 매개변수의 문자열을 사전 순으로 비교
-   * Method : String.compareTo(Object anObject)
+   * 해당 문자열과 매개변수의 문자열을 사전 순으로 비교 ( 대소문자 무시 )
+   * Method : String.compareToIgnoreCas(Object anObject)
    *   - Object : 값을 비교할 대상 Object
    *   - result : -1(  String가 작음 ), 0 (같음) , 1 이상 (String가 큼 )
    */

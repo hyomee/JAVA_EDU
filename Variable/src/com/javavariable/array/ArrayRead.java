@@ -22,11 +22,10 @@ public class ArrayRead {
          System.out.println(String.format("배열 %d 번째 값 %s", i, numArray[i]));
       }
 
+      // for-each 문을 이용 헤서 읽어 오기
       for(int value: numArray) {
          System.out.println(String.format("배열 값 %s",  value));
       }
    }
-
-
 
 }

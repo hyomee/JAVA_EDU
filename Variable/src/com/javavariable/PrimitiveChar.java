@@ -12,12 +12,19 @@ public class PrimitiveChar {
       char hexadecimalToChar = 0x0041;
       char unicodeToChar = '\u0041';
 
-      System.out.println(String.format("문자      = %s", charliteralToChar));
-      System.out.println(String.format("숫자문자   = %s", charIntegerliteralToChar));
-      System.out.println(String.format("10진수    = %s", integerliteralToChar));
-      System.out.println(String.format("2진수     = %s", bianeyliteralToChar));
-      System.out.println(String.format("8진수     = %s", octalliteralToChar));
-      System.out.println(String.format("16진수    = %s", hexadecimalToChar));
-      System.out.println(String.format("유니코드   = %s", unicodeToChar));
+      System.out.println(String.format("문자      = %s"
+              , charliteralToChar));         // A
+      System.out.println(String.format("숫자문자   = %s"
+              , charIntegerliteralToChar));  // 3
+      System.out.println(String.format("10진수    = %s"
+              , integerliteralToChar));      // A
+      System.out.println(String.format("2진수     = %s"
+              , bianeyliteralToChar));       // A
+      System.out.println(String.format("8진수     = %s"
+              , octalliteralToChar));        // A
+      System.out.println(String.format("16진수    = %s"
+              , hexadecimalToChar));         // A
+      System.out.println(String.format("유니코드   = %s"
+              , unicodeToChar));             // A
    }
 }

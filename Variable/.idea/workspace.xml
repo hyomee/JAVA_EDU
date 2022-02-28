@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8197556e-ec47-43d7-bdf1-361488dee0fc" name="변경" comment="변수, 기본자료형, 참조자료형" />
+    <list default="true" id="8197556e-ec47-43d7-bdf1-361488dee0fc" name="변경" comment="변수, 기본자료형, 참조자료형">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javavariable/DecimalConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javavariable/DecimalConversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javavariable/DeclaredVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javavariable/DeclaredVariable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javavariable/PrimitiveChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javavariable/PrimitiveChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javavariable/PrimitiveFloat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javavariable/PrimitiveFloat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javavariable/PrimitiveTypeBooleanNumeric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javavariable/PrimitiveTypeBooleanNumeric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javavariable/array/ArrayInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javavariable/array/ArrayInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javavariable/array/ArrayRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javavariable/array/ArrayRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javavariable/array/Narray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javavariable/array/Narray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/javavariable/string/ObjectString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javavariable/string/ObjectString.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,9 +58,9 @@
       <recent name="D:\works\JAVA_EDU\Variable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObjectString">
-    <configuration name="Narray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javavariable.array.Narray" />
+  <component name="RunManager" selected="Application.ArrayInit">
+    <configuration name="ArrayInit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javavariable.array.ArrayInit" />
       <module name="Variable" />
       <extension name="coverage">
         <pattern>
@@ -61,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javavariable.string.ObjectString" />
+    <configuration name="DecimalConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javavariable.DecimalConversion" />
       <module name="Variable" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javavariable.string.*" />
+          <option name="PATTERN" value="com.javavariable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javavariable.string.StringCopy" />
+    <configuration name="PrimitiveChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javavariable.PrimitiveChar" />
       <module name="Variable" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javavariable.string.*" />
+          <option name="PATTERN" value="com.javavariable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javavariable.string.StringOperation" />
+    <configuration name="PrimitiveFloat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javavariable.PrimitiveFloat" />
       <module name="Variable" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javavariable.string.*" />
+          <option name="PATTERN" value="com.javavariable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringSharing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javavariable.string.StringSharing" />
+    <configuration name="PrimitiveTypeBooleanNumeric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javavariable.PrimitiveTypeBooleanNumeric" />
       <module name="Variable" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javavariable.string.*" />
+          <option name="PATTERN" value="com.javavariable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,7 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ObjectString" />
+        <item itemvalue="Application.ArrayInit" />
+        <item itemvalue="Application.DecimalConversion" />
+        <item itemvalue="Application.PrimitiveChar" />
+        <item itemvalue="Application.PrimitiveFloat" />
+        <item itemvalue="Application.PrimitiveTypeBooleanNumeric" />
       </list>
     </recent_temporary>
   </component>
@@ -130,6 +145,8 @@
       <workItem from="1645190971531" duration="6349000" />
       <workItem from="1645274541699" duration="393000" />
       <workItem from="1645275589418" duration="210000" />
+      <workItem from="1645964540271" duration="3906000" />
+      <workItem from="1646050448946" duration="6735000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1643566856192</created>

@@ -16,11 +16,16 @@ public class PrimitiveFloat {
       double floatingLiteralTeDouble = 10.25;
       double numericLiteralToDouble = 10;
 
-      System.out.println(String.format("float numericLiteralToFloat = %f", numericLiteralToFloat));
-      System.out.println(String.format("float floatingLiteralToFloat = %f", floatingLiteralToFloat));
-      System.out.println(String.format("float floatingLiteralToCastingFloat = %f", floatingLiteralToCastingFloat));
-      System.out.println(String.format("double floatingLiteralTeDouble = %f", floatingLiteralTeDouble));
-      System.out.println(String.format("double numericLiteralToDouble = %f", numericLiteralToDouble));
+      System.out.println(String.format("float numericLiteralToFloat = %f"
+              , numericLiteralToFloat));           // 10.000000
+      System.out.println(String.format("float floatingLiteralToFloat = %f"
+              , floatingLiteralToFloat));          // 10.250000
+      System.out.println(String.format("float floatingLiteralToCastingFloat = %f"
+              , floatingLiteralToCastingFloat));   // 10.250000
+      System.out.println(String.format("double floatingLiteralTeDouble = %f"
+              , floatingLiteralTeDouble));         // 10.250000
+      System.out.println(String.format("double numericLiteralToDouble = %f"
+              , numericLiteralToDouble));          // 10.000000
    }
 }
 
