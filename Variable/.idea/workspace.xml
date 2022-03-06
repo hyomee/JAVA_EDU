@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8197556e-ec47-43d7-bdf1-361488dee0fc" name="변경" comment="변수, 기본자료형, 참조자료형">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javavariable/DecimalConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javavariable/DecimalConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javavariable/DeclaredVariable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javavariable/DeclaredVariable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javavariable/PrimitiveChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javavariable/PrimitiveChar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javavariable/PrimitiveFloat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javavariable/PrimitiveFloat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javavariable/PrimitiveTypeBooleanNumeric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javavariable/PrimitiveTypeBooleanNumeric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javavariable/array/ArrayInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javavariable/array/ArrayInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javavariable/array/ArrayRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javavariable/array/ArrayRead.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javavariable/array/Narray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javavariable/array/Narray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/javavariable/string/ObjectString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/javavariable/string/ObjectString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Operator" />
     <property name="project.structure.last.edited" value="모듈" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -146,7 +137,8 @@
       <workItem from="1645274541699" duration="393000" />
       <workItem from="1645275589418" duration="210000" />
       <workItem from="1645964540271" duration="3906000" />
-      <workItem from="1646050448946" duration="6735000" />
+      <workItem from="1646050448946" duration="6869000" />
+      <workItem from="1646536350389" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1643566856192</created>
@@ -190,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645275710117</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="변수, 기본자료형, 참조자료형">
+      <created>1646075333219</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1646075333219</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

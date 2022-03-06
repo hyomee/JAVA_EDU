@@ -21,6 +21,9 @@ public class ShiftOperators {
       flagsNegative = flagsNegative << 1;
       System.out.println(String.format("십진수 : %s, 이진수 : %s",
             Integer.valueOf(flagsNegative), Integer.toBinaryString(flagsNegative)));
+      flagsNegative = flagsNegative << 1;
+      System.out.println(String.format("십진수 : %s, 이진수 : %s",
+              Integer.valueOf(flagsNegative), Integer.toBinaryString(flagsNegative)));
 
       int flagsRight = 0b00110011;
       System.out.println(String.format("십진수 : %s, 이진수 : %s",
